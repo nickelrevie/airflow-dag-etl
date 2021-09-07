@@ -1,0 +1,24 @@
+[2021-09-07 03:51:16,599] {taskinstance.py:903} INFO - Dependencies all met for <TaskInstance: users_and_posts_etl_dag.extract_data 2021-09-07T03:51:15.387516+00:00 [queued]>
+[2021-09-07 03:51:16,614] {taskinstance.py:903} INFO - Dependencies all met for <TaskInstance: users_and_posts_etl_dag.extract_data 2021-09-07T03:51:15.387516+00:00 [queued]>
+[2021-09-07 03:51:16,615] {taskinstance.py:1094} INFO - 
+--------------------------------------------------------------------------------
+[2021-09-07 03:51:16,615] {taskinstance.py:1095} INFO - Starting attempt 1 of 1
+[2021-09-07 03:51:16,615] {taskinstance.py:1096} INFO - 
+--------------------------------------------------------------------------------
+[2021-09-07 03:51:16,626] {taskinstance.py:1114} INFO - Executing <Task(PythonOperator): extract_data> on 2021-09-07T03:51:15.387516+00:00
+[2021-09-07 03:51:16,630] {standard_task_runner.py:52} INFO - Started process 17606 to run task
+[2021-09-07 03:51:16,632] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'users_and_posts_etl_dag', 'extract_data', '2021-09-07T03:51:15.387516+00:00', '--job-id', '173', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/hoverstate_etl.py', '--cfg-path', '/tmp/tmpcoqczczs', '--error-file', '/tmp/tmpb0sddoz0']
+[2021-09-07 03:51:16,632] {standard_task_runner.py:77} INFO - Job 173: Subtask extract_data
+[2021-09-07 03:51:16,664] {logging_mixin.py:109} INFO - Running <TaskInstance: users_and_posts_etl_dag.extract_data 2021-09-07T03:51:15.387516+00:00 [running]> on host 731700afc5ff
+[2021-09-07 03:51:16,705] {taskinstance.py:1251} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=users_and_posts_etl_dag
+AIRFLOW_CTX_TASK_ID=extract_data
+AIRFLOW_CTX_EXECUTION_DATE=2021-09-07T03:51:15.387516+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-09-07T03:51:15.387516+00:00
+[2021-09-07 03:51:16,867] {logging_mixin.py:109} INFO - /opt/***/dags/files/users
+[2021-09-07 03:51:16,867] {logging_mixin.py:109} INFO - /opt/***/dags/files/posts
+[2021-09-07 03:51:16,893] {python.py:151} INFO - Done. Returned value was: None
+[2021-09-07 03:51:16,904] {taskinstance.py:1211} INFO - Marking task as SUCCESS. dag_id=users_and_posts_etl_dag, task_id=extract_data, execution_date=20210907T035115, start_date=20210907T035116, end_date=20210907T035116
+[2021-09-07 03:51:16,925] {local_task_job.py:151} INFO - Task exited with return code 0
+[2021-09-07 03:51:16,945] {local_task_job.py:261} INFO - 1 downstream tasks scheduled from follow-on schedule check

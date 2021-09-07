@@ -1,0 +1,1319 @@
+[2021-09-06 23:04:18,143] {processor.py:162} INFO - Started process (PID=24159) to work on /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:04:18,144] {processor.py:613} INFO - Processing file /opt/airflow/dags/hoverstate_etl.py for tasks to queue
+[2021-09-06 23:04:18,145] {logging_mixin.py:109} INFO - [2021-09-06 23:04:18,144] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:04:18,147] {logging_mixin.py:109} INFO - [2021-09-06 23:04:18,146] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/hoverstate_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/hoverstate_etl.py", line 119
+    default_args = default_args
+    ^
+SyntaxError: invalid syntax
+[2021-09-06 23:04:18,148] {processor.py:625} WARNING - No viable dags retrieved from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:04:18,165] {processor.py:170} INFO - Processing /opt/airflow/dags/hoverstate_etl.py took 0.024 seconds
+[2021-09-06 23:04:48,406] {processor.py:162} INFO - Started process (PID=24216) to work on /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:04:48,406] {processor.py:613} INFO - Processing file /opt/airflow/dags/hoverstate_etl.py for tasks to queue
+[2021-09-06 23:04:48,407] {logging_mixin.py:109} INFO - [2021-09-06 23:04:48,407] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:04:48,408] {logging_mixin.py:109} INFO - [2021-09-06 23:04:48,408] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/hoverstate_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/hoverstate_etl.py", line 119
+    default_args = default_args
+    ^
+SyntaxError: invalid syntax
+[2021-09-06 23:04:48,409] {processor.py:625} WARNING - No viable dags retrieved from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:04:48,421] {processor.py:170} INFO - Processing /opt/airflow/dags/hoverstate_etl.py took 0.017 seconds
+[2021-09-06 23:05:12,102] {processor.py:162} INFO - Started process (PID=24250) to work on /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:05:12,103] {processor.py:613} INFO - Processing file /opt/airflow/dags/hoverstate_etl.py for tasks to queue
+[2021-09-06 23:05:12,103] {logging_mixin.py:109} INFO - [2021-09-06 23:05:12,103] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:05:12,104] {logging_mixin.py:109} INFO - [2021-09-06 23:05:12,104] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/hoverstate_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/hoverstate_etl.py", line 21
+    description = 'Hoverstate ETL DAG Challenge'
+    ^
+SyntaxError: invalid syntax
+[2021-09-06 23:05:12,105] {processor.py:625} WARNING - No viable dags retrieved from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:05:12,119] {processor.py:170} INFO - Processing /opt/airflow/dags/hoverstate_etl.py took 0.019 seconds
+[2021-09-06 23:05:36,956] {processor.py:162} INFO - Started process (PID=24290) to work on /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:05:36,957] {processor.py:613} INFO - Processing file /opt/airflow/dags/hoverstate_etl.py for tasks to queue
+[2021-09-06 23:05:36,958] {logging_mixin.py:109} INFO - [2021-09-06 23:05:36,958] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:05:36,963] {logging_mixin.py:109} INFO - [2021-09-06 23:05:36,962] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/hoverstate_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/hoverstate_etl.py", line 6, in <module>
+    from airflow.operaters.bash_operator import BashOperator
+ModuleNotFoundError: No module named 'airflow.operaters'
+[2021-09-06 23:05:36,963] {processor.py:625} WARNING - No viable dags retrieved from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:05:36,978] {processor.py:170} INFO - Processing /opt/airflow/dags/hoverstate_etl.py took 0.025 seconds
+[2021-09-06 23:05:49,764] {processor.py:162} INFO - Started process (PID=24322) to work on /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:05:49,765] {processor.py:613} INFO - Processing file /opt/airflow/dags/hoverstate_etl.py for tasks to queue
+[2021-09-06 23:05:49,766] {logging_mixin.py:109} INFO - [2021-09-06 23:05:49,766] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:05:49,776] {logging_mixin.py:109} INFO - [2021-09-06 23:05:49,775] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/hoverstate_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/hoverstate_etl.py", line 8, in <module>
+    from airflow.hooks import PostgresHook
+ImportError: cannot import name 'PostgresHook' from 'airflow.hooks' (/home/airflow/.local/lib/python3.8/site-packages/airflow/hooks/__init__.py)
+[2021-09-06 23:05:49,777] {processor.py:625} WARNING - No viable dags retrieved from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:05:49,793] {processor.py:170} INFO - Processing /opt/airflow/dags/hoverstate_etl.py took 0.032 seconds
+[2021-09-06 23:06:12,499] {processor.py:162} INFO - Started process (PID=24358) to work on /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:06:12,500] {processor.py:613} INFO - Processing file /opt/airflow/dags/hoverstate_etl.py for tasks to queue
+[2021-09-06 23:06:12,500] {logging_mixin.py:109} INFO - [2021-09-06 23:06:12,500] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:06:12,686] {logging_mixin.py:109} INFO - [2021-09-06 23:06:12,681] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/hoverstate_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/hoverstate_etl.py", line 118, in <module>
+    extract_task = PythonOperator(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 178, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 134, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 178, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 627, in __init__
+    self.dag = dag or DagContext.get_current_dag()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 733, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 784, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 1604, in add_task
+    raise AirflowException("Task is missing the start_date parameter")
+airflow.exceptions.AirflowException: Task is missing the start_date parameter
+[2021-09-06 23:06:12,687] {processor.py:625} WARNING - No viable dags retrieved from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:06:12,704] {processor.py:170} INFO - Processing /opt/airflow/dags/hoverstate_etl.py took 0.208 seconds
+[2021-09-06 23:06:43,595] {processor.py:162} INFO - Started process (PID=24426) to work on /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:06:43,597] {processor.py:613} INFO - Processing file /opt/airflow/dags/hoverstate_etl.py for tasks to queue
+[2021-09-06 23:06:43,597] {logging_mixin.py:109} INFO - [2021-09-06 23:06:43,597] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:06:43,755] {logging_mixin.py:109} INFO - [2021-09-06 23:06:43,752] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/hoverstate_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/hoverstate_etl.py", line 118, in <module>
+    extract_task = PythonOperator(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 178, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 134, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 178, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 627, in __init__
+    self.dag = dag or DagContext.get_current_dag()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 733, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 784, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 1604, in add_task
+    raise AirflowException("Task is missing the start_date parameter")
+airflow.exceptions.AirflowException: Task is missing the start_date parameter
+[2021-09-06 23:06:43,755] {processor.py:625} WARNING - No viable dags retrieved from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:06:43,770] {processor.py:170} INFO - Processing /opt/airflow/dags/hoverstate_etl.py took 0.177 seconds
+[2021-09-06 23:07:13,816] {processor.py:162} INFO - Started process (PID=24495) to work on /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:07:13,816] {processor.py:613} INFO - Processing file /opt/airflow/dags/hoverstate_etl.py for tasks to queue
+[2021-09-06 23:07:13,817] {logging_mixin.py:109} INFO - [2021-09-06 23:07:13,817] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:07:13,922] {logging_mixin.py:109} INFO - [2021-09-06 23:07:13,920] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/hoverstate_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/hoverstate_etl.py", line 118, in <module>
+    extract_task = PythonOperator(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 178, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 134, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 178, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 627, in __init__
+    self.dag = dag or DagContext.get_current_dag()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 733, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 784, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 1604, in add_task
+    raise AirflowException("Task is missing the start_date parameter")
+airflow.exceptions.AirflowException: Task is missing the start_date parameter
+[2021-09-06 23:07:13,923] {processor.py:625} WARNING - No viable dags retrieved from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:07:13,937] {processor.py:170} INFO - Processing /opt/airflow/dags/hoverstate_etl.py took 0.123 seconds
+[2021-09-06 23:07:44,136] {processor.py:162} INFO - Started process (PID=24554) to work on /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:07:44,137] {processor.py:613} INFO - Processing file /opt/airflow/dags/hoverstate_etl.py for tasks to queue
+[2021-09-06 23:07:44,137] {logging_mixin.py:109} INFO - [2021-09-06 23:07:44,137] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:07:44,244] {logging_mixin.py:109} INFO - [2021-09-06 23:07:44,242] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/hoverstate_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/hoverstate_etl.py", line 118, in <module>
+    extract_task = PythonOperator(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 178, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 134, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 178, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 627, in __init__
+    self.dag = dag or DagContext.get_current_dag()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 733, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 784, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 1604, in add_task
+    raise AirflowException("Task is missing the start_date parameter")
+airflow.exceptions.AirflowException: Task is missing the start_date parameter
+[2021-09-06 23:07:44,244] {processor.py:625} WARNING - No viable dags retrieved from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:07:44,322] {processor.py:170} INFO - Processing /opt/airflow/dags/hoverstate_etl.py took 0.187 seconds
+[2021-09-06 23:08:14,339] {processor.py:162} INFO - Started process (PID=24623) to work on /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:08:14,339] {processor.py:613} INFO - Processing file /opt/airflow/dags/hoverstate_etl.py for tasks to queue
+[2021-09-06 23:08:14,340] {logging_mixin.py:109} INFO - [2021-09-06 23:08:14,340] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:08:14,443] {logging_mixin.py:109} INFO - [2021-09-06 23:08:14,441] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/hoverstate_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/hoverstate_etl.py", line 118, in <module>
+    extract_task = PythonOperator(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 178, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 134, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 178, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 627, in __init__
+    self.dag = dag or DagContext.get_current_dag()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 733, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 784, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 1604, in add_task
+    raise AirflowException("Task is missing the start_date parameter")
+airflow.exceptions.AirflowException: Task is missing the start_date parameter
+[2021-09-06 23:08:14,443] {processor.py:625} WARNING - No viable dags retrieved from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:08:14,457] {processor.py:170} INFO - Processing /opt/airflow/dags/hoverstate_etl.py took 0.120 seconds
+[2021-09-06 23:08:44,512] {processor.py:162} INFO - Started process (PID=24691) to work on /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:08:44,513] {processor.py:613} INFO - Processing file /opt/airflow/dags/hoverstate_etl.py for tasks to queue
+[2021-09-06 23:08:44,514] {logging_mixin.py:109} INFO - [2021-09-06 23:08:44,514] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:08:44,638] {logging_mixin.py:109} INFO - [2021-09-06 23:08:44,637] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/hoverstate_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/hoverstate_etl.py", line 118, in <module>
+    extract_task = PythonOperator(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 178, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 134, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 178, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 627, in __init__
+    self.dag = dag or DagContext.get_current_dag()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 733, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 784, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 1604, in add_task
+    raise AirflowException("Task is missing the start_date parameter")
+airflow.exceptions.AirflowException: Task is missing the start_date parameter
+[2021-09-06 23:08:44,639] {processor.py:625} WARNING - No viable dags retrieved from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:08:44,654] {processor.py:170} INFO - Processing /opt/airflow/dags/hoverstate_etl.py took 0.144 seconds
+[2021-09-06 23:09:14,714] {processor.py:162} INFO - Started process (PID=24753) to work on /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:09:14,715] {processor.py:613} INFO - Processing file /opt/airflow/dags/hoverstate_etl.py for tasks to queue
+[2021-09-06 23:09:14,715] {logging_mixin.py:109} INFO - [2021-09-06 23:09:14,715] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:09:14,848] {logging_mixin.py:109} INFO - [2021-09-06 23:09:14,846] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/hoverstate_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/hoverstate_etl.py", line 118, in <module>
+    extract_task = PythonOperator(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 178, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 134, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 178, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 627, in __init__
+    self.dag = dag or DagContext.get_current_dag()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 733, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 784, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 1604, in add_task
+    raise AirflowException("Task is missing the start_date parameter")
+airflow.exceptions.AirflowException: Task is missing the start_date parameter
+[2021-09-06 23:09:14,849] {processor.py:625} WARNING - No viable dags retrieved from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:09:14,864] {processor.py:170} INFO - Processing /opt/airflow/dags/hoverstate_etl.py took 0.153 seconds
+[2021-09-06 23:09:45,013] {processor.py:162} INFO - Started process (PID=24819) to work on /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:09:45,015] {processor.py:613} INFO - Processing file /opt/airflow/dags/hoverstate_etl.py for tasks to queue
+[2021-09-06 23:09:45,015] {logging_mixin.py:109} INFO - [2021-09-06 23:09:45,015] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:09:45,172] {logging_mixin.py:109} INFO - [2021-09-06 23:09:45,170] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/hoverstate_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/hoverstate_etl.py", line 118, in <module>
+    extract_task = PythonOperator(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 178, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 134, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 178, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 627, in __init__
+    self.dag = dag or DagContext.get_current_dag()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 733, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 784, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 1604, in add_task
+    raise AirflowException("Task is missing the start_date parameter")
+airflow.exceptions.AirflowException: Task is missing the start_date parameter
+[2021-09-06 23:09:45,173] {processor.py:625} WARNING - No viable dags retrieved from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:09:45,192] {processor.py:170} INFO - Processing /opt/airflow/dags/hoverstate_etl.py took 0.180 seconds
+[2021-09-06 23:10:15,324] {processor.py:162} INFO - Started process (PID=24889) to work on /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:10:15,325] {processor.py:613} INFO - Processing file /opt/airflow/dags/hoverstate_etl.py for tasks to queue
+[2021-09-06 23:10:15,325] {logging_mixin.py:109} INFO - [2021-09-06 23:10:15,325] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:10:15,459] {logging_mixin.py:109} INFO - [2021-09-06 23:10:15,457] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/hoverstate_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/hoverstate_etl.py", line 118, in <module>
+    extract_task = PythonOperator(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 178, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 134, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 178, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 627, in __init__
+    self.dag = dag or DagContext.get_current_dag()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 733, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 784, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 1604, in add_task
+    raise AirflowException("Task is missing the start_date parameter")
+airflow.exceptions.AirflowException: Task is missing the start_date parameter
+[2021-09-06 23:10:15,460] {processor.py:625} WARNING - No viable dags retrieved from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:10:15,475] {processor.py:170} INFO - Processing /opt/airflow/dags/hoverstate_etl.py took 0.153 seconds
+[2021-09-06 23:10:45,705] {processor.py:162} INFO - Started process (PID=24948) to work on /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:10:45,706] {processor.py:613} INFO - Processing file /opt/airflow/dags/hoverstate_etl.py for tasks to queue
+[2021-09-06 23:10:45,706] {logging_mixin.py:109} INFO - [2021-09-06 23:10:45,706] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:10:45,833] {logging_mixin.py:109} INFO - [2021-09-06 23:10:45,830] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/hoverstate_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/hoverstate_etl.py", line 118, in <module>
+    extract_task = PythonOperator(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 178, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 134, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 178, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 627, in __init__
+    self.dag = dag or DagContext.get_current_dag()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 733, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 784, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 1604, in add_task
+    raise AirflowException("Task is missing the start_date parameter")
+airflow.exceptions.AirflowException: Task is missing the start_date parameter
+[2021-09-06 23:10:45,833] {processor.py:625} WARNING - No viable dags retrieved from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:10:45,849] {processor.py:170} INFO - Processing /opt/airflow/dags/hoverstate_etl.py took 0.146 seconds
+[2021-09-06 23:11:16,004] {processor.py:162} INFO - Started process (PID=25017) to work on /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:11:16,005] {processor.py:613} INFO - Processing file /opt/airflow/dags/hoverstate_etl.py for tasks to queue
+[2021-09-06 23:11:16,006] {logging_mixin.py:109} INFO - [2021-09-06 23:11:16,006] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:11:16,159] {logging_mixin.py:109} INFO - [2021-09-06 23:11:16,157] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/hoverstate_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/hoverstate_etl.py", line 118, in <module>
+    extract_task = PythonOperator(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 178, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 134, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 178, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 627, in __init__
+    self.dag = dag or DagContext.get_current_dag()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 733, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 784, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 1604, in add_task
+    raise AirflowException("Task is missing the start_date parameter")
+airflow.exceptions.AirflowException: Task is missing the start_date parameter
+[2021-09-06 23:11:16,160] {processor.py:625} WARNING - No viable dags retrieved from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:11:16,175] {processor.py:170} INFO - Processing /opt/airflow/dags/hoverstate_etl.py took 0.174 seconds
+[2021-09-06 23:11:46,361] {processor.py:162} INFO - Started process (PID=25087) to work on /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:11:46,363] {processor.py:613} INFO - Processing file /opt/airflow/dags/hoverstate_etl.py for tasks to queue
+[2021-09-06 23:11:46,363] {logging_mixin.py:109} INFO - [2021-09-06 23:11:46,363] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:11:46,567] {logging_mixin.py:109} INFO - [2021-09-06 23:11:46,565] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/hoverstate_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/hoverstate_etl.py", line 118, in <module>
+    extract_task = PythonOperator(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 178, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 134, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 178, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 627, in __init__
+    self.dag = dag or DagContext.get_current_dag()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 733, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 784, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 1604, in add_task
+    raise AirflowException("Task is missing the start_date parameter")
+airflow.exceptions.AirflowException: Task is missing the start_date parameter
+[2021-09-06 23:11:46,567] {processor.py:625} WARNING - No viable dags retrieved from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:11:46,583] {processor.py:170} INFO - Processing /opt/airflow/dags/hoverstate_etl.py took 0.224 seconds
+[2021-09-06 23:12:17,513] {processor.py:162} INFO - Started process (PID=25148) to work on /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:12:17,514] {processor.py:613} INFO - Processing file /opt/airflow/dags/hoverstate_etl.py for tasks to queue
+[2021-09-06 23:12:17,514] {logging_mixin.py:109} INFO - [2021-09-06 23:12:17,514] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:12:17,644] {logging_mixin.py:109} INFO - [2021-09-06 23:12:17,642] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/hoverstate_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/hoverstate_etl.py", line 118, in <module>
+    extract_task = PythonOperator(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 178, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 134, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 178, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 627, in __init__
+    self.dag = dag or DagContext.get_current_dag()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 733, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 784, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 1604, in add_task
+    raise AirflowException("Task is missing the start_date parameter")
+airflow.exceptions.AirflowException: Task is missing the start_date parameter
+[2021-09-06 23:12:17,645] {processor.py:625} WARNING - No viable dags retrieved from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:12:17,661] {processor.py:170} INFO - Processing /opt/airflow/dags/hoverstate_etl.py took 0.150 seconds
+[2021-09-06 23:12:48,120] {processor.py:162} INFO - Started process (PID=25216) to work on /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:12:48,120] {processor.py:613} INFO - Processing file /opt/airflow/dags/hoverstate_etl.py for tasks to queue
+[2021-09-06 23:12:48,121] {logging_mixin.py:109} INFO - [2021-09-06 23:12:48,121] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:12:48,234] {logging_mixin.py:109} INFO - [2021-09-06 23:12:48,232] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/hoverstate_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/hoverstate_etl.py", line 118, in <module>
+    extract_task = PythonOperator(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 178, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 134, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 178, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 627, in __init__
+    self.dag = dag or DagContext.get_current_dag()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 733, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 784, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 1604, in add_task
+    raise AirflowException("Task is missing the start_date parameter")
+airflow.exceptions.AirflowException: Task is missing the start_date parameter
+[2021-09-06 23:12:48,234] {processor.py:625} WARNING - No viable dags retrieved from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:12:48,250] {processor.py:170} INFO - Processing /opt/airflow/dags/hoverstate_etl.py took 0.132 seconds
+[2021-09-06 23:13:18,266] {processor.py:162} INFO - Started process (PID=25286) to work on /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:13:18,267] {processor.py:613} INFO - Processing file /opt/airflow/dags/hoverstate_etl.py for tasks to queue
+[2021-09-06 23:13:18,268] {logging_mixin.py:109} INFO - [2021-09-06 23:13:18,268] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:13:18,390] {logging_mixin.py:109} INFO - [2021-09-06 23:13:18,388] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/hoverstate_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/hoverstate_etl.py", line 118, in <module>
+    extract_task = PythonOperator(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 178, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 134, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 178, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 627, in __init__
+    self.dag = dag or DagContext.get_current_dag()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 733, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 784, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 1604, in add_task
+    raise AirflowException("Task is missing the start_date parameter")
+airflow.exceptions.AirflowException: Task is missing the start_date parameter
+[2021-09-06 23:13:18,391] {processor.py:625} WARNING - No viable dags retrieved from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:13:18,410] {processor.py:170} INFO - Processing /opt/airflow/dags/hoverstate_etl.py took 0.146 seconds
+[2021-09-06 23:13:48,796] {processor.py:162} INFO - Started process (PID=25345) to work on /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:13:48,797] {processor.py:613} INFO - Processing file /opt/airflow/dags/hoverstate_etl.py for tasks to queue
+[2021-09-06 23:13:48,798] {logging_mixin.py:109} INFO - [2021-09-06 23:13:48,798] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:13:48,934] {logging_mixin.py:109} INFO - [2021-09-06 23:13:48,931] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/hoverstate_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/hoverstate_etl.py", line 118, in <module>
+    extract_task = PythonOperator(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 178, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 134, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 178, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 627, in __init__
+    self.dag = dag or DagContext.get_current_dag()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 733, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 784, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 1604, in add_task
+    raise AirflowException("Task is missing the start_date parameter")
+airflow.exceptions.AirflowException: Task is missing the start_date parameter
+[2021-09-06 23:13:48,934] {processor.py:625} WARNING - No viable dags retrieved from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:13:48,948] {processor.py:170} INFO - Processing /opt/airflow/dags/hoverstate_etl.py took 0.155 seconds
+[2021-09-06 23:14:18,999] {processor.py:162} INFO - Started process (PID=25414) to work on /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:14:19,000] {processor.py:613} INFO - Processing file /opt/airflow/dags/hoverstate_etl.py for tasks to queue
+[2021-09-06 23:14:19,001] {logging_mixin.py:109} INFO - [2021-09-06 23:14:19,001] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:14:19,149] {logging_mixin.py:109} INFO - [2021-09-06 23:14:19,147] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/hoverstate_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/hoverstate_etl.py", line 118, in <module>
+    extract_task = PythonOperator(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 178, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 134, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 178, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 627, in __init__
+    self.dag = dag or DagContext.get_current_dag()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 733, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 784, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 1604, in add_task
+    raise AirflowException("Task is missing the start_date parameter")
+airflow.exceptions.AirflowException: Task is missing the start_date parameter
+[2021-09-06 23:14:19,149] {processor.py:625} WARNING - No viable dags retrieved from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:14:19,166] {processor.py:170} INFO - Processing /opt/airflow/dags/hoverstate_etl.py took 0.169 seconds
+[2021-09-06 23:14:49,214] {processor.py:162} INFO - Started process (PID=25481) to work on /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:14:49,215] {processor.py:613} INFO - Processing file /opt/airflow/dags/hoverstate_etl.py for tasks to queue
+[2021-09-06 23:14:49,216] {logging_mixin.py:109} INFO - [2021-09-06 23:14:49,216] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:14:49,339] {logging_mixin.py:109} INFO - [2021-09-06 23:14:49,337] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/hoverstate_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/hoverstate_etl.py", line 118, in <module>
+    extract_task = PythonOperator(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 178, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 134, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 178, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 627, in __init__
+    self.dag = dag or DagContext.get_current_dag()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 733, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 784, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 1604, in add_task
+    raise AirflowException("Task is missing the start_date parameter")
+airflow.exceptions.AirflowException: Task is missing the start_date parameter
+[2021-09-06 23:14:49,340] {processor.py:625} WARNING - No viable dags retrieved from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:14:49,354] {processor.py:170} INFO - Processing /opt/airflow/dags/hoverstate_etl.py took 0.142 seconds
+[2021-09-06 23:14:53,564] {processor.py:162} INFO - Started process (PID=25504) to work on /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:14:53,564] {processor.py:613} INFO - Processing file /opt/airflow/dags/hoverstate_etl.py for tasks to queue
+[2021-09-06 23:14:53,565] {logging_mixin.py:109} INFO - [2021-09-06 23:14:53,565] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:14:53,689] {logging_mixin.py:109} INFO - [2021-09-06 23:14:53,684] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/hoverstate_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/hoverstate_etl.py", line 120, in <module>
+    extract_task = PythonOperator(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 178, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 134, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 178, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 627, in __init__
+    self.dag = dag or DagContext.get_current_dag()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 733, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 784, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 1604, in add_task
+    raise AirflowException("Task is missing the start_date parameter")
+airflow.exceptions.AirflowException: Task is missing the start_date parameter
+[2021-09-06 23:14:53,690] {processor.py:625} WARNING - No viable dags retrieved from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:14:53,721] {processor.py:170} INFO - Processing /opt/airflow/dags/hoverstate_etl.py took 0.159 seconds
+[2021-09-06 23:15:23,947] {processor.py:162} INFO - Started process (PID=25572) to work on /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:15:23,948] {processor.py:613} INFO - Processing file /opt/airflow/dags/hoverstate_etl.py for tasks to queue
+[2021-09-06 23:15:23,949] {logging_mixin.py:109} INFO - [2021-09-06 23:15:23,949] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:15:24,077] {logging_mixin.py:109} INFO - [2021-09-06 23:15:24,075] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/hoverstate_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/hoverstate_etl.py", line 120, in <module>
+    extract_task = PythonOperator(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 178, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 134, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 178, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 627, in __init__
+    self.dag = dag or DagContext.get_current_dag()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 733, in __setattr__
+    super().__setattr__(key, value)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 784, in dag
+    dag.add_task(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 1604, in add_task
+    raise AirflowException("Task is missing the start_date parameter")
+airflow.exceptions.AirflowException: Task is missing the start_date parameter
+[2021-09-06 23:15:24,077] {processor.py:625} WARNING - No viable dags retrieved from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:15:24,093] {processor.py:170} INFO - Processing /opt/airflow/dags/hoverstate_etl.py took 0.149 seconds
+[2021-09-06 23:15:35,333] {processor.py:162} INFO - Started process (PID=25597) to work on /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:15:35,334] {processor.py:613} INFO - Processing file /opt/airflow/dags/hoverstate_etl.py for tasks to queue
+[2021-09-06 23:15:35,335] {logging_mixin.py:109} INFO - [2021-09-06 23:15:35,335] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:15:35,451] {logging_mixin.py:109} INFO - [2021-09-06 23:15:35,450] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/hoverstate_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/hoverstate_etl.py", line 24, in <module>
+    start_date=days_ago(2)
+NameError: name 'days_ago' is not defined
+[2021-09-06 23:15:35,452] {processor.py:625} WARNING - No viable dags retrieved from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:15:35,471] {processor.py:170} INFO - Processing /opt/airflow/dags/hoverstate_etl.py took 0.140 seconds
+[2021-09-06 23:16:06,047] {processor.py:162} INFO - Started process (PID=25657) to work on /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:16:06,048] {processor.py:613} INFO - Processing file /opt/airflow/dags/hoverstate_etl.py for tasks to queue
+[2021-09-06 23:16:06,048] {logging_mixin.py:109} INFO - [2021-09-06 23:16:06,048] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:16:06,163] {logging_mixin.py:109} INFO - [2021-09-06 23:16:06,162] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/hoverstate_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/hoverstate_etl.py", line 24, in <module>
+    start_date=days_ago(2)
+NameError: name 'days_ago' is not defined
+[2021-09-06 23:16:06,164] {processor.py:625} WARNING - No viable dags retrieved from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:16:06,179] {processor.py:170} INFO - Processing /opt/airflow/dags/hoverstate_etl.py took 0.133 seconds
+[2021-09-06 23:16:18,470] {processor.py:162} INFO - Started process (PID=25690) to work on /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:16:18,471] {processor.py:613} INFO - Processing file /opt/airflow/dags/hoverstate_etl.py for tasks to queue
+[2021-09-06 23:16:18,472] {logging_mixin.py:109} INFO - [2021-09-06 23:16:18,472] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:16:18,617] {logging_mixin.py:109} INFO - [2021-09-06 23:16:18,616] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/hoverstate_etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/hoverstate_etl.py", line 24, in <module>
+    start_date=days_ago(2),
+NameError: name 'days_ago' is not defined
+[2021-09-06 23:16:18,617] {processor.py:625} WARNING - No viable dags retrieved from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:16:18,633] {processor.py:170} INFO - Processing /opt/airflow/dags/hoverstate_etl.py took 0.166 seconds
+[2021-09-06 23:16:43,362] {processor.py:162} INFO - Started process (PID=25742) to work on /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:16:43,363] {processor.py:613} INFO - Processing file /opt/airflow/dags/hoverstate_etl.py for tasks to queue
+[2021-09-06 23:16:43,364] {logging_mixin.py:109} INFO - [2021-09-06 23:16:43,364] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:16:43,476] {processor.py:623} INFO - DAG(s) dict_keys(['users_and_posts_etl_dag']) retrieved from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:16:45,784] {logging_mixin.py:109} INFO - [2021-09-06 23:16:45,783] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 23:16:45,789] {logging_mixin.py:109} INFO - [2021-09-06 23:16:45,789] {dag.py:1852} INFO - Creating ORM DAG for users_and_posts_etl_dag
+[2021-09-06 23:16:45,792] {logging_mixin.py:109} INFO - [2021-09-06 23:16:45,792] {dag.py:2306} INFO - Setting next_dagrun for users_and_posts_etl_dag to 2021-09-04 00:00:00+00:00
+[2021-09-06 23:16:45,802] {processor.py:170} INFO - Processing /opt/airflow/dags/hoverstate_etl.py took 2.442 seconds
+[2021-09-06 23:17:15,958] {processor.py:162} INFO - Started process (PID=25816) to work on /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:17:15,958] {processor.py:613} INFO - Processing file /opt/airflow/dags/hoverstate_etl.py for tasks to queue
+[2021-09-06 23:17:15,959] {logging_mixin.py:109} INFO - [2021-09-06 23:17:15,959] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:17:16,079] {processor.py:623} INFO - DAG(s) dict_keys(['users_and_posts_etl_dag']) retrieved from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:17:16,097] {logging_mixin.py:109} INFO - [2021-09-06 23:17:16,097] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 23:17:16,110] {logging_mixin.py:109} INFO - [2021-09-06 23:17:16,110] {dag.py:2306} INFO - Setting next_dagrun for users_and_posts_etl_dag to 2021-09-04 00:00:00+00:00
+[2021-09-06 23:17:16,123] {processor.py:170} INFO - Processing /opt/airflow/dags/hoverstate_etl.py took 0.167 seconds
+[2021-09-06 23:17:46,209] {processor.py:162} INFO - Started process (PID=25884) to work on /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:17:46,210] {processor.py:613} INFO - Processing file /opt/airflow/dags/hoverstate_etl.py for tasks to queue
+[2021-09-06 23:17:46,210] {logging_mixin.py:109} INFO - [2021-09-06 23:17:46,210] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:17:46,374] {processor.py:623} INFO - DAG(s) dict_keys(['users_and_posts_etl_dag']) retrieved from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:17:46,392] {logging_mixin.py:109} INFO - [2021-09-06 23:17:46,391] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 23:17:46,403] {logging_mixin.py:109} INFO - [2021-09-06 23:17:46,403] {dag.py:2306} INFO - Setting next_dagrun for users_and_posts_etl_dag to 2021-09-04 00:00:00+00:00
+[2021-09-06 23:17:46,410] {processor.py:170} INFO - Processing /opt/airflow/dags/hoverstate_etl.py took 0.204 seconds
+[2021-09-06 23:18:16,632] {processor.py:162} INFO - Started process (PID=25952) to work on /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:18:16,633] {processor.py:613} INFO - Processing file /opt/airflow/dags/hoverstate_etl.py for tasks to queue
+[2021-09-06 23:18:16,633] {logging_mixin.py:109} INFO - [2021-09-06 23:18:16,633] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:18:16,774] {processor.py:623} INFO - DAG(s) dict_keys(['users_and_posts_etl_dag']) retrieved from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:18:16,792] {logging_mixin.py:109} INFO - [2021-09-06 23:18:16,791] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 23:18:16,803] {logging_mixin.py:109} INFO - [2021-09-06 23:18:16,803] {dag.py:2306} INFO - Setting next_dagrun for users_and_posts_etl_dag to 2021-09-04 00:00:00+00:00
+[2021-09-06 23:18:16,814] {processor.py:170} INFO - Processing /opt/airflow/dags/hoverstate_etl.py took 0.183 seconds
+[2021-09-06 23:18:46,931] {processor.py:162} INFO - Started process (PID=26011) to work on /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:18:46,932] {processor.py:613} INFO - Processing file /opt/airflow/dags/hoverstate_etl.py for tasks to queue
+[2021-09-06 23:18:46,932] {logging_mixin.py:109} INFO - [2021-09-06 23:18:46,932] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:18:47,080] {processor.py:623} INFO - DAG(s) dict_keys(['users_and_posts_etl_dag']) retrieved from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:18:47,098] {logging_mixin.py:109} INFO - [2021-09-06 23:18:47,097] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 23:18:47,108] {logging_mixin.py:109} INFO - [2021-09-06 23:18:47,108] {dag.py:2306} INFO - Setting next_dagrun for users_and_posts_etl_dag to 2021-09-04 00:00:00+00:00
+[2021-09-06 23:18:47,116] {processor.py:170} INFO - Processing /opt/airflow/dags/hoverstate_etl.py took 0.187 seconds
+[2021-09-06 23:19:17,162] {processor.py:162} INFO - Started process (PID=26078) to work on /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:19:17,163] {processor.py:613} INFO - Processing file /opt/airflow/dags/hoverstate_etl.py for tasks to queue
+[2021-09-06 23:19:17,163] {logging_mixin.py:109} INFO - [2021-09-06 23:19:17,163] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:19:17,267] {processor.py:623} INFO - DAG(s) dict_keys(['users_and_posts_etl_dag']) retrieved from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:19:17,284] {logging_mixin.py:109} INFO - [2021-09-06 23:19:17,283] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 23:19:17,293] {logging_mixin.py:109} INFO - [2021-09-06 23:19:17,293] {dag.py:2306} INFO - Setting next_dagrun for users_and_posts_etl_dag to 2021-09-04 00:00:00+00:00
+[2021-09-06 23:19:17,300] {processor.py:170} INFO - Processing /opt/airflow/dags/hoverstate_etl.py took 0.140 seconds
+[2021-09-06 23:19:47,498] {processor.py:162} INFO - Started process (PID=26148) to work on /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:19:47,498] {processor.py:613} INFO - Processing file /opt/airflow/dags/hoverstate_etl.py for tasks to queue
+[2021-09-06 23:19:47,499] {logging_mixin.py:109} INFO - [2021-09-06 23:19:47,499] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:19:47,654] {processor.py:623} INFO - DAG(s) dict_keys(['users_and_posts_etl_dag']) retrieved from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:19:47,671] {logging_mixin.py:109} INFO - [2021-09-06 23:19:47,671] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 23:19:47,683] {logging_mixin.py:109} INFO - [2021-09-06 23:19:47,683] {dag.py:2306} INFO - Setting next_dagrun for users_and_posts_etl_dag to 2021-09-04 00:00:00+00:00
+[2021-09-06 23:19:47,692] {processor.py:170} INFO - Processing /opt/airflow/dags/hoverstate_etl.py took 0.196 seconds
+[2021-09-06 23:20:17,808] {processor.py:162} INFO - Started process (PID=26222) to work on /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:20:17,809] {processor.py:613} INFO - Processing file /opt/airflow/dags/hoverstate_etl.py for tasks to queue
+[2021-09-06 23:20:17,809] {logging_mixin.py:109} INFO - [2021-09-06 23:20:17,809] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:20:17,913] {processor.py:623} INFO - DAG(s) dict_keys(['users_and_posts_etl_dag']) retrieved from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:20:17,929] {logging_mixin.py:109} INFO - [2021-09-06 23:20:17,929] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 23:20:17,940] {logging_mixin.py:109} INFO - [2021-09-06 23:20:17,940] {dag.py:2306} INFO - Setting next_dagrun for users_and_posts_etl_dag to 2021-09-06 00:00:00+00:00
+[2021-09-06 23:20:17,948] {processor.py:170} INFO - Processing /opt/airflow/dags/hoverstate_etl.py took 0.141 seconds
+[2021-09-06 23:20:47,982] {processor.py:162} INFO - Started process (PID=26291) to work on /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:20:47,982] {processor.py:613} INFO - Processing file /opt/airflow/dags/hoverstate_etl.py for tasks to queue
+[2021-09-06 23:20:47,983] {logging_mixin.py:109} INFO - [2021-09-06 23:20:47,983] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:20:48,117] {processor.py:623} INFO - DAG(s) dict_keys(['users_and_posts_etl_dag']) retrieved from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:20:48,136] {logging_mixin.py:109} INFO - [2021-09-06 23:20:48,135] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 23:20:48,146] {logging_mixin.py:109} INFO - [2021-09-06 23:20:48,146] {dag.py:2306} INFO - Setting next_dagrun for users_and_posts_etl_dag to 2021-09-06 00:00:00+00:00
+[2021-09-06 23:20:48,156] {processor.py:170} INFO - Processing /opt/airflow/dags/hoverstate_etl.py took 0.177 seconds
+[2021-09-06 23:21:18,239] {processor.py:162} INFO - Started process (PID=26351) to work on /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:21:18,240] {processor.py:613} INFO - Processing file /opt/airflow/dags/hoverstate_etl.py for tasks to queue
+[2021-09-06 23:21:18,240] {logging_mixin.py:109} INFO - [2021-09-06 23:21:18,240] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:21:18,358] {processor.py:623} INFO - DAG(s) dict_keys(['users_and_posts_etl_dag']) retrieved from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:21:18,375] {logging_mixin.py:109} INFO - [2021-09-06 23:21:18,374] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 23:21:18,385] {logging_mixin.py:109} INFO - [2021-09-06 23:21:18,385] {dag.py:2306} INFO - Setting next_dagrun for users_and_posts_etl_dag to 2021-09-06 00:00:00+00:00
+[2021-09-06 23:21:18,392] {processor.py:170} INFO - Processing /opt/airflow/dags/hoverstate_etl.py took 0.156 seconds
+[2021-09-06 23:21:48,581] {processor.py:162} INFO - Started process (PID=26420) to work on /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:21:48,583] {processor.py:613} INFO - Processing file /opt/airflow/dags/hoverstate_etl.py for tasks to queue
+[2021-09-06 23:21:48,583] {logging_mixin.py:109} INFO - [2021-09-06 23:21:48,583] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:21:48,692] {processor.py:623} INFO - DAG(s) dict_keys(['users_and_posts_etl_dag']) retrieved from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:21:48,708] {logging_mixin.py:109} INFO - [2021-09-06 23:21:48,708] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 23:21:48,718] {logging_mixin.py:109} INFO - [2021-09-06 23:21:48,718] {dag.py:2306} INFO - Setting next_dagrun for users_and_posts_etl_dag to 2021-09-06 00:00:00+00:00
+[2021-09-06 23:21:48,725] {processor.py:170} INFO - Processing /opt/airflow/dags/hoverstate_etl.py took 0.146 seconds
+[2021-09-06 23:22:19,192] {processor.py:162} INFO - Started process (PID=26487) to work on /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:22:19,193] {processor.py:613} INFO - Processing file /opt/airflow/dags/hoverstate_etl.py for tasks to queue
+[2021-09-06 23:22:19,193] {logging_mixin.py:109} INFO - [2021-09-06 23:22:19,193] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:22:19,327] {processor.py:623} INFO - DAG(s) dict_keys(['users_and_posts_etl_dag']) retrieved from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:22:19,349] {logging_mixin.py:109} INFO - [2021-09-06 23:22:19,348] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 23:22:19,363] {logging_mixin.py:109} INFO - [2021-09-06 23:22:19,363] {dag.py:2306} INFO - Setting next_dagrun for users_and_posts_etl_dag to 2021-09-06 00:00:00+00:00
+[2021-09-06 23:22:19,372] {processor.py:170} INFO - Processing /opt/airflow/dags/hoverstate_etl.py took 0.182 seconds
+[2021-09-06 23:22:49,567] {processor.py:162} INFO - Started process (PID=26547) to work on /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:22:49,568] {processor.py:613} INFO - Processing file /opt/airflow/dags/hoverstate_etl.py for tasks to queue
+[2021-09-06 23:22:49,568] {logging_mixin.py:109} INFO - [2021-09-06 23:22:49,568] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:22:49,687] {processor.py:623} INFO - DAG(s) dict_keys(['users_and_posts_etl_dag']) retrieved from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:22:49,703] {logging_mixin.py:109} INFO - [2021-09-06 23:22:49,703] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 23:22:49,712] {logging_mixin.py:109} INFO - [2021-09-06 23:22:49,712] {dag.py:2306} INFO - Setting next_dagrun for users_and_posts_etl_dag to 2021-09-06 00:00:00+00:00
+[2021-09-06 23:22:49,720] {processor.py:170} INFO - Processing /opt/airflow/dags/hoverstate_etl.py took 0.154 seconds
+[2021-09-06 23:23:20,711] {processor.py:162} INFO - Started process (PID=26614) to work on /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:23:20,712] {processor.py:613} INFO - Processing file /opt/airflow/dags/hoverstate_etl.py for tasks to queue
+[2021-09-06 23:23:20,713] {logging_mixin.py:109} INFO - [2021-09-06 23:23:20,713] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:23:20,842] {processor.py:623} INFO - DAG(s) dict_keys(['users_and_posts_etl_dag']) retrieved from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:23:20,861] {logging_mixin.py:109} INFO - [2021-09-06 23:23:20,861] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 23:23:20,875] {logging_mixin.py:109} INFO - [2021-09-06 23:23:20,875] {dag.py:2306} INFO - Setting next_dagrun for users_and_posts_etl_dag to 2021-09-06 00:00:00+00:00
+[2021-09-06 23:23:20,885] {processor.py:170} INFO - Processing /opt/airflow/dags/hoverstate_etl.py took 0.177 seconds
+[2021-09-06 23:23:51,189] {processor.py:162} INFO - Started process (PID=26683) to work on /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:23:51,190] {processor.py:613} INFO - Processing file /opt/airflow/dags/hoverstate_etl.py for tasks to queue
+[2021-09-06 23:23:51,191] {logging_mixin.py:109} INFO - [2021-09-06 23:23:51,191] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:23:51,310] {processor.py:623} INFO - DAG(s) dict_keys(['users_and_posts_etl_dag']) retrieved from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:23:51,328] {logging_mixin.py:109} INFO - [2021-09-06 23:23:51,327] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 23:23:51,339] {logging_mixin.py:109} INFO - [2021-09-06 23:23:51,339] {dag.py:2306} INFO - Setting next_dagrun for users_and_posts_etl_dag to 2021-09-06 00:00:00+00:00
+[2021-09-06 23:23:51,347] {processor.py:170} INFO - Processing /opt/airflow/dags/hoverstate_etl.py took 0.160 seconds
+[2021-09-06 23:24:21,371] {processor.py:162} INFO - Started process (PID=26743) to work on /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:24:21,372] {processor.py:613} INFO - Processing file /opt/airflow/dags/hoverstate_etl.py for tasks to queue
+[2021-09-06 23:24:21,373] {logging_mixin.py:109} INFO - [2021-09-06 23:24:21,372] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:24:21,486] {processor.py:623} INFO - DAG(s) dict_keys(['users_and_posts_etl_dag']) retrieved from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:24:21,505] {logging_mixin.py:109} INFO - [2021-09-06 23:24:21,505] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 23:24:21,520] {logging_mixin.py:109} INFO - [2021-09-06 23:24:21,519] {dag.py:2306} INFO - Setting next_dagrun for users_and_posts_etl_dag to 2021-09-06 00:00:00+00:00
+[2021-09-06 23:24:21,528] {processor.py:170} INFO - Processing /opt/airflow/dags/hoverstate_etl.py took 0.158 seconds
+[2021-09-06 23:24:51,652] {processor.py:162} INFO - Started process (PID=26813) to work on /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:24:51,653] {processor.py:613} INFO - Processing file /opt/airflow/dags/hoverstate_etl.py for tasks to queue
+[2021-09-06 23:24:51,653] {logging_mixin.py:109} INFO - [2021-09-06 23:24:51,653] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:24:51,810] {processor.py:623} INFO - DAG(s) dict_keys(['users_and_posts_etl_dag']) retrieved from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:24:51,825] {logging_mixin.py:109} INFO - [2021-09-06 23:24:51,825] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 23:24:51,835] {logging_mixin.py:109} INFO - [2021-09-06 23:24:51,834] {dag.py:2306} INFO - Setting next_dagrun for users_and_posts_etl_dag to 2021-09-06 00:00:00+00:00
+[2021-09-06 23:24:51,851] {processor.py:170} INFO - Processing /opt/airflow/dags/hoverstate_etl.py took 0.201 seconds
+[2021-09-06 23:25:21,993] {processor.py:162} INFO - Started process (PID=26885) to work on /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:25:21,994] {processor.py:613} INFO - Processing file /opt/airflow/dags/hoverstate_etl.py for tasks to queue
+[2021-09-06 23:25:21,995] {logging_mixin.py:109} INFO - [2021-09-06 23:25:21,995] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:25:22,115] {processor.py:623} INFO - DAG(s) dict_keys(['users_and_posts_etl_dag']) retrieved from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:25:22,137] {logging_mixin.py:109} INFO - [2021-09-06 23:25:22,137] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 23:25:22,151] {logging_mixin.py:109} INFO - [2021-09-06 23:25:22,151] {dag.py:2306} INFO - Setting next_dagrun for users_and_posts_etl_dag to 2021-09-06 00:00:00+00:00
+[2021-09-06 23:25:22,161] {processor.py:170} INFO - Processing /opt/airflow/dags/hoverstate_etl.py took 0.170 seconds
+[2021-09-06 23:25:52,493] {processor.py:162} INFO - Started process (PID=26945) to work on /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:25:52,494] {processor.py:613} INFO - Processing file /opt/airflow/dags/hoverstate_etl.py for tasks to queue
+[2021-09-06 23:25:52,495] {logging_mixin.py:109} INFO - [2021-09-06 23:25:52,495] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:25:52,619] {processor.py:623} INFO - DAG(s) dict_keys(['users_and_posts_etl_dag']) retrieved from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:25:52,636] {logging_mixin.py:109} INFO - [2021-09-06 23:25:52,636] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 23:25:52,646] {logging_mixin.py:109} INFO - [2021-09-06 23:25:52,645] {dag.py:2306} INFO - Setting next_dagrun for users_and_posts_etl_dag to 2021-09-06 00:00:00+00:00
+[2021-09-06 23:25:52,653] {processor.py:170} INFO - Processing /opt/airflow/dags/hoverstate_etl.py took 0.163 seconds
+[2021-09-06 23:26:08,214] {processor.py:162} INFO - Started process (PID=26995) to work on /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:26:08,215] {processor.py:613} INFO - Processing file /opt/airflow/dags/hoverstate_etl.py for tasks to queue
+[2021-09-06 23:26:08,216] {logging_mixin.py:109} INFO - [2021-09-06 23:26:08,215] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:26:08,361] {processor.py:623} INFO - DAG(s) dict_keys(['users_and_posts_etl_dag']) retrieved from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:26:08,380] {logging_mixin.py:109} INFO - [2021-09-06 23:26:08,379] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 23:26:08,392] {logging_mixin.py:109} INFO - [2021-09-06 23:26:08,392] {dag.py:2306} INFO - Setting next_dagrun for users_and_posts_etl_dag to 2021-09-06 00:00:00+00:00
+[2021-09-06 23:26:08,403] {processor.py:170} INFO - Processing /opt/airflow/dags/hoverstate_etl.py took 0.191 seconds
+[2021-09-06 23:26:38,618] {processor.py:162} INFO - Started process (PID=27060) to work on /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:26:38,620] {processor.py:613} INFO - Processing file /opt/airflow/dags/hoverstate_etl.py for tasks to queue
+[2021-09-06 23:26:38,620] {logging_mixin.py:109} INFO - [2021-09-06 23:26:38,620] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:26:38,738] {processor.py:623} INFO - DAG(s) dict_keys(['users_and_posts_etl_dag']) retrieved from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:26:38,756] {logging_mixin.py:109} INFO - [2021-09-06 23:26:38,755] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 23:26:38,766] {logging_mixin.py:109} INFO - [2021-09-06 23:26:38,766] {dag.py:2306} INFO - Setting next_dagrun for users_and_posts_etl_dag to 2021-09-06 00:00:00+00:00
+[2021-09-06 23:26:38,773] {processor.py:170} INFO - Processing /opt/airflow/dags/hoverstate_etl.py took 0.157 seconds
+[2021-09-06 23:27:08,835] {processor.py:162} INFO - Started process (PID=27128) to work on /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:27:08,836] {processor.py:613} INFO - Processing file /opt/airflow/dags/hoverstate_etl.py for tasks to queue
+[2021-09-06 23:27:08,836] {logging_mixin.py:109} INFO - [2021-09-06 23:27:08,836] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:27:08,939] {processor.py:623} INFO - DAG(s) dict_keys(['users_and_posts_etl_dag']) retrieved from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:27:08,956] {logging_mixin.py:109} INFO - [2021-09-06 23:27:08,955] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 23:27:08,965] {logging_mixin.py:109} INFO - [2021-09-06 23:27:08,965] {dag.py:2306} INFO - Setting next_dagrun for users_and_posts_etl_dag to 2021-09-06 00:00:00+00:00
+[2021-09-06 23:27:08,977] {processor.py:170} INFO - Processing /opt/airflow/dags/hoverstate_etl.py took 0.144 seconds
+[2021-09-06 23:27:09,942] {processor.py:162} INFO - Started process (PID=27140) to work on /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:27:09,942] {processor.py:613} INFO - Processing file /opt/airflow/dags/hoverstate_etl.py for tasks to queue
+[2021-09-06 23:27:09,943] {logging_mixin.py:109} INFO - [2021-09-06 23:27:09,943] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:27:10,049] {processor.py:623} INFO - DAG(s) dict_keys(['users_and_posts_etl_dag']) retrieved from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:27:10,066] {logging_mixin.py:109} INFO - [2021-09-06 23:27:10,066] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 23:27:10,077] {logging_mixin.py:109} INFO - [2021-09-06 23:27:10,077] {dag.py:2306} INFO - Setting next_dagrun for users_and_posts_etl_dag to 2021-09-06 00:00:00+00:00
+[2021-09-06 23:27:10,086] {processor.py:170} INFO - Processing /opt/airflow/dags/hoverstate_etl.py took 0.147 seconds
+[2021-09-06 23:27:40,382] {processor.py:162} INFO - Started process (PID=27212) to work on /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:27:40,382] {processor.py:613} INFO - Processing file /opt/airflow/dags/hoverstate_etl.py for tasks to queue
+[2021-09-06 23:27:40,383] {logging_mixin.py:109} INFO - [2021-09-06 23:27:40,383] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:27:40,504] {processor.py:623} INFO - DAG(s) dict_keys(['users_and_posts_etl_dag']) retrieved from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:27:40,522] {logging_mixin.py:109} INFO - [2021-09-06 23:27:40,521] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 23:27:40,532] {logging_mixin.py:109} INFO - [2021-09-06 23:27:40,532] {dag.py:2306} INFO - Setting next_dagrun for users_and_posts_etl_dag to 2021-09-06 00:00:00+00:00
+[2021-09-06 23:27:40,544] {processor.py:170} INFO - Processing /opt/airflow/dags/hoverstate_etl.py took 0.164 seconds
+[2021-09-06 23:28:11,485] {processor.py:162} INFO - Started process (PID=27272) to work on /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:28:11,485] {processor.py:613} INFO - Processing file /opt/airflow/dags/hoverstate_etl.py for tasks to queue
+[2021-09-06 23:28:11,486] {logging_mixin.py:109} INFO - [2021-09-06 23:28:11,486] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:28:11,591] {processor.py:623} INFO - DAG(s) dict_keys(['users_and_posts_etl_dag']) retrieved from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:28:11,608] {logging_mixin.py:109} INFO - [2021-09-06 23:28:11,607] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 23:28:11,617] {logging_mixin.py:109} INFO - [2021-09-06 23:28:11,617] {dag.py:2306} INFO - Setting next_dagrun for users_and_posts_etl_dag to 2021-09-06 00:00:00+00:00
+[2021-09-06 23:28:11,629] {processor.py:170} INFO - Processing /opt/airflow/dags/hoverstate_etl.py took 0.146 seconds
+[2021-09-06 23:28:41,724] {processor.py:162} INFO - Started process (PID=27340) to work on /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:28:41,724] {processor.py:613} INFO - Processing file /opt/airflow/dags/hoverstate_etl.py for tasks to queue
+[2021-09-06 23:28:41,725] {logging_mixin.py:109} INFO - [2021-09-06 23:28:41,725] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:28:41,836] {processor.py:623} INFO - DAG(s) dict_keys(['users_and_posts_etl_dag']) retrieved from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:28:41,854] {logging_mixin.py:109} INFO - [2021-09-06 23:28:41,853] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 23:28:41,868] {logging_mixin.py:109} INFO - [2021-09-06 23:28:41,868] {dag.py:2306} INFO - Setting next_dagrun for users_and_posts_etl_dag to 2021-09-06 00:00:00+00:00
+[2021-09-06 23:28:41,878] {processor.py:170} INFO - Processing /opt/airflow/dags/hoverstate_etl.py took 0.156 seconds
+[2021-09-06 23:28:54,166] {processor.py:162} INFO - Started process (PID=27369) to work on /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:28:54,166] {processor.py:613} INFO - Processing file /opt/airflow/dags/hoverstate_etl.py for tasks to queue
+[2021-09-06 23:28:54,167] {logging_mixin.py:109} INFO - [2021-09-06 23:28:54,167] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:28:54,306] {processor.py:623} INFO - DAG(s) dict_keys(['users_and_posts_etl_dag']) retrieved from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:28:54,326] {logging_mixin.py:109} INFO - [2021-09-06 23:28:54,325] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 23:28:54,337] {logging_mixin.py:109} INFO - [2021-09-06 23:28:54,337] {dag.py:2306} INFO - Setting next_dagrun for users_and_posts_etl_dag to 2021-09-06 00:00:00+00:00
+[2021-09-06 23:28:54,349] {processor.py:170} INFO - Processing /opt/airflow/dags/hoverstate_etl.py took 0.185 seconds
+[2021-09-06 23:29:24,474] {processor.py:162} INFO - Started process (PID=27444) to work on /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:29:24,475] {processor.py:613} INFO - Processing file /opt/airflow/dags/hoverstate_etl.py for tasks to queue
+[2021-09-06 23:29:24,475] {logging_mixin.py:109} INFO - [2021-09-06 23:29:24,475] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:29:24,600] {processor.py:623} INFO - DAG(s) dict_keys(['users_and_posts_etl_dag']) retrieved from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:29:24,617] {logging_mixin.py:109} INFO - [2021-09-06 23:29:24,616] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 23:29:24,625] {logging_mixin.py:109} INFO - [2021-09-06 23:29:24,625] {dag.py:2306} INFO - Setting next_dagrun for users_and_posts_etl_dag to 2021-09-06 00:00:00+00:00
+[2021-09-06 23:29:24,632] {processor.py:170} INFO - Processing /opt/airflow/dags/hoverstate_etl.py took 0.160 seconds
+[2021-09-06 23:29:54,742] {processor.py:162} INFO - Started process (PID=27512) to work on /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:29:54,743] {processor.py:613} INFO - Processing file /opt/airflow/dags/hoverstate_etl.py for tasks to queue
+[2021-09-06 23:29:54,743] {logging_mixin.py:109} INFO - [2021-09-06 23:29:54,743] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:29:54,857] {processor.py:623} INFO - DAG(s) dict_keys(['users_and_posts_etl_dag']) retrieved from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:29:54,876] {logging_mixin.py:109} INFO - [2021-09-06 23:29:54,875] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 23:29:54,888] {logging_mixin.py:109} INFO - [2021-09-06 23:29:54,888] {dag.py:2306} INFO - Setting next_dagrun for users_and_posts_etl_dag to 2021-09-06 00:00:00+00:00
+[2021-09-06 23:29:54,897] {processor.py:170} INFO - Processing /opt/airflow/dags/hoverstate_etl.py took 0.156 seconds
+[2021-09-06 23:30:25,856] {processor.py:162} INFO - Started process (PID=27572) to work on /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:30:25,857] {processor.py:613} INFO - Processing file /opt/airflow/dags/hoverstate_etl.py for tasks to queue
+[2021-09-06 23:30:25,858] {logging_mixin.py:109} INFO - [2021-09-06 23:30:25,858] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:30:26,007] {processor.py:623} INFO - DAG(s) dict_keys(['users_and_posts_etl_dag']) retrieved from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:30:26,027] {logging_mixin.py:109} INFO - [2021-09-06 23:30:26,027] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 23:30:26,040] {logging_mixin.py:109} INFO - [2021-09-06 23:30:26,040] {dag.py:2306} INFO - Setting next_dagrun for users_and_posts_etl_dag to 2021-09-06 00:00:00+00:00
+[2021-09-06 23:30:26,048] {processor.py:170} INFO - Processing /opt/airflow/dags/hoverstate_etl.py took 0.194 seconds
+[2021-09-06 23:30:40,637] {processor.py:162} INFO - Started process (PID=27619) to work on /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:30:40,637] {processor.py:613} INFO - Processing file /opt/airflow/dags/hoverstate_etl.py for tasks to queue
+[2021-09-06 23:30:40,638] {logging_mixin.py:109} INFO - [2021-09-06 23:30:40,638] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:30:40,759] {processor.py:623} INFO - DAG(s) dict_keys(['users_and_posts_etl_dag']) retrieved from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:30:40,775] {logging_mixin.py:109} INFO - [2021-09-06 23:30:40,774] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 23:30:40,784] {logging_mixin.py:109} INFO - [2021-09-06 23:30:40,784] {dag.py:2306} INFO - Setting next_dagrun for users_and_posts_etl_dag to 2021-09-06 00:00:00+00:00
+[2021-09-06 23:30:40,792] {processor.py:170} INFO - Processing /opt/airflow/dags/hoverstate_etl.py took 0.157 seconds
+[2021-09-06 23:31:10,881] {processor.py:162} INFO - Started process (PID=27680) to work on /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:31:10,882] {processor.py:613} INFO - Processing file /opt/airflow/dags/hoverstate_etl.py for tasks to queue
+[2021-09-06 23:31:10,883] {logging_mixin.py:109} INFO - [2021-09-06 23:31:10,882] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:31:10,984] {processor.py:623} INFO - DAG(s) dict_keys(['users_and_posts_etl_dag']) retrieved from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:31:11,002] {logging_mixin.py:109} INFO - [2021-09-06 23:31:11,001] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 23:31:11,011] {logging_mixin.py:109} INFO - [2021-09-06 23:31:11,011] {dag.py:2306} INFO - Setting next_dagrun for users_and_posts_etl_dag to 2021-09-06 00:00:00+00:00
+[2021-09-06 23:31:11,018] {processor.py:170} INFO - Processing /opt/airflow/dags/hoverstate_etl.py took 0.138 seconds
+[2021-09-06 23:31:41,376] {processor.py:162} INFO - Started process (PID=27748) to work on /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:31:41,377] {processor.py:613} INFO - Processing file /opt/airflow/dags/hoverstate_etl.py for tasks to queue
+[2021-09-06 23:31:41,377] {logging_mixin.py:109} INFO - [2021-09-06 23:31:41,377] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:31:41,492] {processor.py:623} INFO - DAG(s) dict_keys(['users_and_posts_etl_dag']) retrieved from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:31:41,508] {logging_mixin.py:109} INFO - [2021-09-06 23:31:41,508] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 23:31:41,518] {logging_mixin.py:109} INFO - [2021-09-06 23:31:41,518] {dag.py:2306} INFO - Setting next_dagrun for users_and_posts_etl_dag to 2021-09-06 00:00:00+00:00
+[2021-09-06 23:31:41,525] {processor.py:170} INFO - Processing /opt/airflow/dags/hoverstate_etl.py took 0.151 seconds
+[2021-09-06 23:32:11,604] {processor.py:162} INFO - Started process (PID=27808) to work on /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:32:11,605] {processor.py:613} INFO - Processing file /opt/airflow/dags/hoverstate_etl.py for tasks to queue
+[2021-09-06 23:32:11,605] {logging_mixin.py:109} INFO - [2021-09-06 23:32:11,605] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:32:11,705] {processor.py:623} INFO - DAG(s) dict_keys(['users_and_posts_etl_dag']) retrieved from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:32:11,722] {logging_mixin.py:109} INFO - [2021-09-06 23:32:11,722] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 23:32:11,731] {logging_mixin.py:109} INFO - [2021-09-06 23:32:11,731] {dag.py:2306} INFO - Setting next_dagrun for users_and_posts_etl_dag to 2021-09-06 00:00:00+00:00
+[2021-09-06 23:32:11,738] {processor.py:170} INFO - Processing /opt/airflow/dags/hoverstate_etl.py took 0.136 seconds
+[2021-09-06 23:32:42,043] {processor.py:162} INFO - Started process (PID=27876) to work on /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:32:42,044] {processor.py:613} INFO - Processing file /opt/airflow/dags/hoverstate_etl.py for tasks to queue
+[2021-09-06 23:32:42,044] {logging_mixin.py:109} INFO - [2021-09-06 23:32:42,044] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:32:42,145] {processor.py:623} INFO - DAG(s) dict_keys(['users_and_posts_etl_dag']) retrieved from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:32:42,161] {logging_mixin.py:109} INFO - [2021-09-06 23:32:42,161] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 23:32:42,171] {logging_mixin.py:109} INFO - [2021-09-06 23:32:42,171] {dag.py:2306} INFO - Setting next_dagrun for users_and_posts_etl_dag to 2021-09-06 00:00:00+00:00
+[2021-09-06 23:32:42,182] {processor.py:170} INFO - Processing /opt/airflow/dags/hoverstate_etl.py took 0.141 seconds
+[2021-09-06 23:33:12,393] {processor.py:162} INFO - Started process (PID=27944) to work on /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:33:12,393] {processor.py:613} INFO - Processing file /opt/airflow/dags/hoverstate_etl.py for tasks to queue
+[2021-09-06 23:33:12,394] {logging_mixin.py:109} INFO - [2021-09-06 23:33:12,394] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:33:12,525] {processor.py:623} INFO - DAG(s) dict_keys(['users_and_posts_etl_dag']) retrieved from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:33:12,543] {logging_mixin.py:109} INFO - [2021-09-06 23:33:12,542] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 23:33:12,555] {logging_mixin.py:109} INFO - [2021-09-06 23:33:12,555] {dag.py:2306} INFO - Setting next_dagrun for users_and_posts_etl_dag to 2021-09-06 00:00:00+00:00
+[2021-09-06 23:33:12,565] {processor.py:170} INFO - Processing /opt/airflow/dags/hoverstate_etl.py took 0.175 seconds
+[2021-09-06 23:33:42,617] {processor.py:162} INFO - Started process (PID=28003) to work on /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:33:42,618] {processor.py:613} INFO - Processing file /opt/airflow/dags/hoverstate_etl.py for tasks to queue
+[2021-09-06 23:33:42,618] {logging_mixin.py:109} INFO - [2021-09-06 23:33:42,618] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:33:42,723] {processor.py:623} INFO - DAG(s) dict_keys(['users_and_posts_etl_dag']) retrieved from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:33:42,740] {logging_mixin.py:109} INFO - [2021-09-06 23:33:42,739] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 23:33:42,749] {logging_mixin.py:109} INFO - [2021-09-06 23:33:42,749] {dag.py:2306} INFO - Setting next_dagrun for users_and_posts_etl_dag to 2021-09-06 00:00:00+00:00
+[2021-09-06 23:33:42,762] {processor.py:170} INFO - Processing /opt/airflow/dags/hoverstate_etl.py took 0.147 seconds
+[2021-09-06 23:34:12,793] {processor.py:162} INFO - Started process (PID=28071) to work on /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:34:12,793] {processor.py:613} INFO - Processing file /opt/airflow/dags/hoverstate_etl.py for tasks to queue
+[2021-09-06 23:34:12,794] {logging_mixin.py:109} INFO - [2021-09-06 23:34:12,794] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:34:12,919] {processor.py:623} INFO - DAG(s) dict_keys(['users_and_posts_etl_dag']) retrieved from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:34:12,937] {logging_mixin.py:109} INFO - [2021-09-06 23:34:12,936] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 23:34:12,949] {logging_mixin.py:109} INFO - [2021-09-06 23:34:12,948] {dag.py:2306} INFO - Setting next_dagrun for users_and_posts_etl_dag to 2021-09-06 00:00:00+00:00
+[2021-09-06 23:34:12,956] {processor.py:170} INFO - Processing /opt/airflow/dags/hoverstate_etl.py took 0.165 seconds
+[2021-09-06 23:34:43,131] {processor.py:162} INFO - Started process (PID=28139) to work on /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:34:43,132] {processor.py:613} INFO - Processing file /opt/airflow/dags/hoverstate_etl.py for tasks to queue
+[2021-09-06 23:34:43,132] {logging_mixin.py:109} INFO - [2021-09-06 23:34:43,132] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:34:43,237] {processor.py:623} INFO - DAG(s) dict_keys(['users_and_posts_etl_dag']) retrieved from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:34:43,254] {logging_mixin.py:109} INFO - [2021-09-06 23:34:43,254] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 23:34:43,264] {logging_mixin.py:109} INFO - [2021-09-06 23:34:43,264] {dag.py:2306} INFO - Setting next_dagrun for users_and_posts_etl_dag to 2021-09-06 00:00:00+00:00
+[2021-09-06 23:34:43,281] {processor.py:170} INFO - Processing /opt/airflow/dags/hoverstate_etl.py took 0.152 seconds
+[2021-09-06 23:35:13,343] {processor.py:162} INFO - Started process (PID=28200) to work on /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:35:13,344] {processor.py:613} INFO - Processing file /opt/airflow/dags/hoverstate_etl.py for tasks to queue
+[2021-09-06 23:35:13,345] {logging_mixin.py:109} INFO - [2021-09-06 23:35:13,345] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:35:13,451] {processor.py:623} INFO - DAG(s) dict_keys(['users_and_posts_etl_dag']) retrieved from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:35:13,468] {logging_mixin.py:109} INFO - [2021-09-06 23:35:13,467] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 23:35:13,478] {logging_mixin.py:109} INFO - [2021-09-06 23:35:13,478] {dag.py:2306} INFO - Setting next_dagrun for users_and_posts_etl_dag to 2021-09-06 00:00:00+00:00
+[2021-09-06 23:35:13,489] {processor.py:170} INFO - Processing /opt/airflow/dags/hoverstate_etl.py took 0.147 seconds
+[2021-09-06 23:35:43,636] {processor.py:162} INFO - Started process (PID=28268) to work on /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:35:43,636] {processor.py:613} INFO - Processing file /opt/airflow/dags/hoverstate_etl.py for tasks to queue
+[2021-09-06 23:35:43,637] {logging_mixin.py:109} INFO - [2021-09-06 23:35:43,636] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:35:43,786] {processor.py:623} INFO - DAG(s) dict_keys(['users_and_posts_etl_dag']) retrieved from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:35:43,809] {logging_mixin.py:109} INFO - [2021-09-06 23:35:43,808] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 23:35:43,824] {logging_mixin.py:109} INFO - [2021-09-06 23:35:43,824] {dag.py:2306} INFO - Setting next_dagrun for users_and_posts_etl_dag to 2021-09-06 00:00:00+00:00
+[2021-09-06 23:35:43,835] {processor.py:170} INFO - Processing /opt/airflow/dags/hoverstate_etl.py took 0.201 seconds
+[2021-09-06 23:35:55,132] {processor.py:162} INFO - Started process (PID=28293) to work on /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:35:55,133] {processor.py:613} INFO - Processing file /opt/airflow/dags/hoverstate_etl.py for tasks to queue
+[2021-09-06 23:35:55,134] {logging_mixin.py:109} INFO - [2021-09-06 23:35:55,134] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:35:55,261] {processor.py:623} INFO - DAG(s) dict_keys(['users_and_posts_etl_dag']) retrieved from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:35:55,278] {logging_mixin.py:109} INFO - [2021-09-06 23:35:55,277] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 23:35:55,287] {logging_mixin.py:109} INFO - [2021-09-06 23:35:55,287] {dag.py:2306} INFO - Setting next_dagrun for users_and_posts_etl_dag to 2021-09-06 00:00:00+00:00
+[2021-09-06 23:35:55,296] {processor.py:170} INFO - Processing /opt/airflow/dags/hoverstate_etl.py took 0.166 seconds
+[2021-09-06 23:36:25,436] {processor.py:162} INFO - Started process (PID=28367) to work on /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:36:25,437] {processor.py:613} INFO - Processing file /opt/airflow/dags/hoverstate_etl.py for tasks to queue
+[2021-09-06 23:36:25,438] {logging_mixin.py:109} INFO - [2021-09-06 23:36:25,438] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:36:25,553] {processor.py:623} INFO - DAG(s) dict_keys(['users_and_posts_etl_dag']) retrieved from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:36:25,571] {logging_mixin.py:109} INFO - [2021-09-06 23:36:25,570] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 23:36:25,582] {logging_mixin.py:109} INFO - [2021-09-06 23:36:25,582] {dag.py:2306} INFO - Setting next_dagrun for users_and_posts_etl_dag to 2021-09-06 00:00:00+00:00
+[2021-09-06 23:36:25,589] {processor.py:170} INFO - Processing /opt/airflow/dags/hoverstate_etl.py took 0.155 seconds
+[2021-09-06 23:36:55,797] {processor.py:162} INFO - Started process (PID=28428) to work on /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:36:55,798] {processor.py:613} INFO - Processing file /opt/airflow/dags/hoverstate_etl.py for tasks to queue
+[2021-09-06 23:36:55,798] {logging_mixin.py:109} INFO - [2021-09-06 23:36:55,798] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:36:55,934] {processor.py:623} INFO - DAG(s) dict_keys(['users_and_posts_etl_dag']) retrieved from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:36:55,956] {logging_mixin.py:109} INFO - [2021-09-06 23:36:55,955] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 23:36:55,968] {logging_mixin.py:109} INFO - [2021-09-06 23:36:55,968] {dag.py:2306} INFO - Setting next_dagrun for users_and_posts_etl_dag to 2021-09-06 00:00:00+00:00
+[2021-09-06 23:36:55,977] {processor.py:170} INFO - Processing /opt/airflow/dags/hoverstate_etl.py took 0.182 seconds
+[2021-09-06 23:37:26,055] {processor.py:162} INFO - Started process (PID=28498) to work on /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:37:26,055] {processor.py:613} INFO - Processing file /opt/airflow/dags/hoverstate_etl.py for tasks to queue
+[2021-09-06 23:37:26,056] {logging_mixin.py:109} INFO - [2021-09-06 23:37:26,056] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:37:26,168] {processor.py:623} INFO - DAG(s) dict_keys(['users_and_posts_etl_dag']) retrieved from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:37:26,186] {logging_mixin.py:109} INFO - [2021-09-06 23:37:26,185] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 23:37:26,196] {logging_mixin.py:109} INFO - [2021-09-06 23:37:26,196] {dag.py:2306} INFO - Setting next_dagrun for users_and_posts_etl_dag to 2021-09-06 00:00:00+00:00
+[2021-09-06 23:37:26,204] {processor.py:170} INFO - Processing /opt/airflow/dags/hoverstate_etl.py took 0.151 seconds
+[2021-09-06 23:37:53,332] {processor.py:162} INFO - Started process (PID=28554) to work on /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:37:53,333] {processor.py:613} INFO - Processing file /opt/airflow/dags/hoverstate_etl.py for tasks to queue
+[2021-09-06 23:37:53,333] {logging_mixin.py:109} INFO - [2021-09-06 23:37:53,333] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:37:53,461] {processor.py:623} INFO - DAG(s) dict_keys(['users_and_posts_etl_dag']) retrieved from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:37:53,479] {logging_mixin.py:109} INFO - [2021-09-06 23:37:53,479] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 23:37:53,491] {logging_mixin.py:109} INFO - [2021-09-06 23:37:53,491] {dag.py:2306} INFO - Setting next_dagrun for users_and_posts_etl_dag to 2021-09-06 00:00:00+00:00
+[2021-09-06 23:37:53,503] {processor.py:170} INFO - Processing /opt/airflow/dags/hoverstate_etl.py took 0.172 seconds
+[2021-09-06 23:38:23,536] {processor.py:162} INFO - Started process (PID=28628) to work on /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:38:23,537] {processor.py:613} INFO - Processing file /opt/airflow/dags/hoverstate_etl.py for tasks to queue
+[2021-09-06 23:38:23,537] {logging_mixin.py:109} INFO - [2021-09-06 23:38:23,537] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:38:23,664] {processor.py:623} INFO - DAG(s) dict_keys(['users_and_posts_etl_dag']) retrieved from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:38:23,681] {logging_mixin.py:109} INFO - [2021-09-06 23:38:23,680] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 23:38:23,691] {logging_mixin.py:109} INFO - [2021-09-06 23:38:23,691] {dag.py:2306} INFO - Setting next_dagrun for users_and_posts_etl_dag to 2021-09-06 00:00:00+00:00
+[2021-09-06 23:38:23,698] {processor.py:170} INFO - Processing /opt/airflow/dags/hoverstate_etl.py took 0.164 seconds
+[2021-09-06 23:38:53,839] {processor.py:162} INFO - Started process (PID=28695) to work on /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:38:53,840] {processor.py:613} INFO - Processing file /opt/airflow/dags/hoverstate_etl.py for tasks to queue
+[2021-09-06 23:38:53,840] {logging_mixin.py:109} INFO - [2021-09-06 23:38:53,840] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:38:53,979] {processor.py:623} INFO - DAG(s) dict_keys(['users_and_posts_etl_dag']) retrieved from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:38:53,995] {logging_mixin.py:109} INFO - [2021-09-06 23:38:53,995] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 23:38:54,007] {logging_mixin.py:109} INFO - [2021-09-06 23:38:54,007] {dag.py:2306} INFO - Setting next_dagrun for users_and_posts_etl_dag to 2021-09-06 00:00:00+00:00
+[2021-09-06 23:38:54,015] {processor.py:170} INFO - Processing /opt/airflow/dags/hoverstate_etl.py took 0.177 seconds
+[2021-09-06 23:39:24,190] {processor.py:162} INFO - Started process (PID=28755) to work on /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:39:24,191] {processor.py:613} INFO - Processing file /opt/airflow/dags/hoverstate_etl.py for tasks to queue
+[2021-09-06 23:39:24,192] {logging_mixin.py:109} INFO - [2021-09-06 23:39:24,192] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:39:24,324] {processor.py:623} INFO - DAG(s) dict_keys(['users_and_posts_etl_dag']) retrieved from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:39:24,344] {logging_mixin.py:109} INFO - [2021-09-06 23:39:24,343] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 23:39:24,354] {logging_mixin.py:109} INFO - [2021-09-06 23:39:24,354] {dag.py:2306} INFO - Setting next_dagrun for users_and_posts_etl_dag to 2021-09-06 00:00:00+00:00
+[2021-09-06 23:39:24,361] {processor.py:170} INFO - Processing /opt/airflow/dags/hoverstate_etl.py took 0.174 seconds
+[2021-09-06 23:39:54,483] {processor.py:162} INFO - Started process (PID=28824) to work on /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:39:54,483] {processor.py:613} INFO - Processing file /opt/airflow/dags/hoverstate_etl.py for tasks to queue
+[2021-09-06 23:39:54,484] {logging_mixin.py:109} INFO - [2021-09-06 23:39:54,484] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:39:54,587] {processor.py:623} INFO - DAG(s) dict_keys(['users_and_posts_etl_dag']) retrieved from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:39:54,605] {logging_mixin.py:109} INFO - [2021-09-06 23:39:54,604] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 23:39:54,615] {logging_mixin.py:109} INFO - [2021-09-06 23:39:54,615] {dag.py:2306} INFO - Setting next_dagrun for users_and_posts_etl_dag to 2021-09-06 00:00:00+00:00
+[2021-09-06 23:39:54,622] {processor.py:170} INFO - Processing /opt/airflow/dags/hoverstate_etl.py took 0.141 seconds
+[2021-09-06 23:40:24,749] {processor.py:162} INFO - Started process (PID=28893) to work on /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:40:24,750] {processor.py:613} INFO - Processing file /opt/airflow/dags/hoverstate_etl.py for tasks to queue
+[2021-09-06 23:40:24,750] {logging_mixin.py:109} INFO - [2021-09-06 23:40:24,750] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:40:24,857] {processor.py:623} INFO - DAG(s) dict_keys(['users_and_posts_etl_dag']) retrieved from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:40:24,878] {logging_mixin.py:109} INFO - [2021-09-06 23:40:24,877] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 23:40:24,889] {logging_mixin.py:109} INFO - [2021-09-06 23:40:24,889] {dag.py:2306} INFO - Setting next_dagrun for users_and_posts_etl_dag to 2021-09-06 00:00:00+00:00
+[2021-09-06 23:40:24,896] {processor.py:170} INFO - Processing /opt/airflow/dags/hoverstate_etl.py took 0.149 seconds
+[2021-09-06 23:40:55,036] {processor.py:162} INFO - Started process (PID=28952) to work on /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:40:55,037] {processor.py:613} INFO - Processing file /opt/airflow/dags/hoverstate_etl.py for tasks to queue
+[2021-09-06 23:40:55,037] {logging_mixin.py:109} INFO - [2021-09-06 23:40:55,037] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:40:55,169] {processor.py:623} INFO - DAG(s) dict_keys(['users_and_posts_etl_dag']) retrieved from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:40:55,186] {logging_mixin.py:109} INFO - [2021-09-06 23:40:55,186] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 23:40:55,196] {logging_mixin.py:109} INFO - [2021-09-06 23:40:55,196] {dag.py:2306} INFO - Setting next_dagrun for users_and_posts_etl_dag to 2021-09-06 00:00:00+00:00
+[2021-09-06 23:40:55,203] {processor.py:170} INFO - Processing /opt/airflow/dags/hoverstate_etl.py took 0.168 seconds
+[2021-09-06 23:41:25,321] {processor.py:162} INFO - Started process (PID=29022) to work on /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:41:25,323] {processor.py:613} INFO - Processing file /opt/airflow/dags/hoverstate_etl.py for tasks to queue
+[2021-09-06 23:41:25,323] {logging_mixin.py:109} INFO - [2021-09-06 23:41:25,323] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:41:25,453] {processor.py:623} INFO - DAG(s) dict_keys(['users_and_posts_etl_dag']) retrieved from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:41:25,469] {logging_mixin.py:109} INFO - [2021-09-06 23:41:25,469] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 23:41:25,478] {logging_mixin.py:109} INFO - [2021-09-06 23:41:25,478] {dag.py:2306} INFO - Setting next_dagrun for users_and_posts_etl_dag to 2021-09-06 00:00:00+00:00
+[2021-09-06 23:41:25,485] {processor.py:170} INFO - Processing /opt/airflow/dags/hoverstate_etl.py took 0.166 seconds
+[2021-09-06 23:41:55,506] {processor.py:162} INFO - Started process (PID=29091) to work on /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:41:55,507] {processor.py:613} INFO - Processing file /opt/airflow/dags/hoverstate_etl.py for tasks to queue
+[2021-09-06 23:41:55,507] {logging_mixin.py:109} INFO - [2021-09-06 23:41:55,507] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:41:55,621] {processor.py:623} INFO - DAG(s) dict_keys(['users_and_posts_etl_dag']) retrieved from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:41:55,641] {logging_mixin.py:109} INFO - [2021-09-06 23:41:55,641] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 23:41:55,653] {logging_mixin.py:109} INFO - [2021-09-06 23:41:55,653] {dag.py:2306} INFO - Setting next_dagrun for users_and_posts_etl_dag to 2021-09-06 00:00:00+00:00
+[2021-09-06 23:41:55,666] {processor.py:170} INFO - Processing /opt/airflow/dags/hoverstate_etl.py took 0.161 seconds
+[2021-09-06 23:42:25,710] {processor.py:162} INFO - Started process (PID=29149) to work on /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:42:25,711] {processor.py:613} INFO - Processing file /opt/airflow/dags/hoverstate_etl.py for tasks to queue
+[2021-09-06 23:42:25,711] {logging_mixin.py:109} INFO - [2021-09-06 23:42:25,711] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:42:25,855] {processor.py:623} INFO - DAG(s) dict_keys(['users_and_posts_etl_dag']) retrieved from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:42:25,874] {logging_mixin.py:109} INFO - [2021-09-06 23:42:25,873] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 23:42:25,885] {logging_mixin.py:109} INFO - [2021-09-06 23:42:25,885] {dag.py:2306} INFO - Setting next_dagrun for users_and_posts_etl_dag to 2021-09-06 00:00:00+00:00
+[2021-09-06 23:42:25,898] {processor.py:170} INFO - Processing /opt/airflow/dags/hoverstate_etl.py took 0.190 seconds
+[2021-09-06 23:42:39,660] {processor.py:162} INFO - Started process (PID=29195) to work on /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:42:39,662] {processor.py:613} INFO - Processing file /opt/airflow/dags/hoverstate_etl.py for tasks to queue
+[2021-09-06 23:42:39,663] {logging_mixin.py:109} INFO - [2021-09-06 23:42:39,662] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:42:39,820] {processor.py:623} INFO - DAG(s) dict_keys(['users_and_posts_etl_dag']) retrieved from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:42:39,843] {logging_mixin.py:109} INFO - [2021-09-06 23:42:39,842] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 23:42:39,857] {logging_mixin.py:109} INFO - [2021-09-06 23:42:39,857] {dag.py:2306} INFO - Setting next_dagrun for users_and_posts_etl_dag to 2021-09-06 00:00:00+00:00
+[2021-09-06 23:42:39,870] {processor.py:170} INFO - Processing /opt/airflow/dags/hoverstate_etl.py took 0.212 seconds
+[2021-09-06 23:43:09,887] {processor.py:162} INFO - Started process (PID=29268) to work on /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:43:09,888] {processor.py:613} INFO - Processing file /opt/airflow/dags/hoverstate_etl.py for tasks to queue
+[2021-09-06 23:43:09,888] {logging_mixin.py:109} INFO - [2021-09-06 23:43:09,888] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:43:10,011] {processor.py:623} INFO - DAG(s) dict_keys(['users_and_posts_etl_dag']) retrieved from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:43:10,030] {logging_mixin.py:109} INFO - [2021-09-06 23:43:10,029] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 23:43:10,041] {logging_mixin.py:109} INFO - [2021-09-06 23:43:10,041] {dag.py:2306} INFO - Setting next_dagrun for users_and_posts_etl_dag to 2021-09-06 00:00:00+00:00
+[2021-09-06 23:43:10,049] {processor.py:170} INFO - Processing /opt/airflow/dags/hoverstate_etl.py took 0.163 seconds
+[2021-09-06 23:43:40,063] {processor.py:162} INFO - Started process (PID=29337) to work on /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:43:40,064] {processor.py:613} INFO - Processing file /opt/airflow/dags/hoverstate_etl.py for tasks to queue
+[2021-09-06 23:43:40,064] {logging_mixin.py:109} INFO - [2021-09-06 23:43:40,064] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:43:40,210] {processor.py:623} INFO - DAG(s) dict_keys(['users_and_posts_etl_dag']) retrieved from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:43:40,230] {logging_mixin.py:109} INFO - [2021-09-06 23:43:40,229] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 23:43:40,241] {logging_mixin.py:109} INFO - [2021-09-06 23:43:40,241] {dag.py:2306} INFO - Setting next_dagrun for users_and_posts_etl_dag to 2021-09-06 00:00:00+00:00
+[2021-09-06 23:43:40,251] {processor.py:170} INFO - Processing /opt/airflow/dags/hoverstate_etl.py took 0.190 seconds
+[2021-09-06 23:44:10,299] {processor.py:162} INFO - Started process (PID=29396) to work on /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:44:10,300] {processor.py:613} INFO - Processing file /opt/airflow/dags/hoverstate_etl.py for tasks to queue
+[2021-09-06 23:44:10,300] {logging_mixin.py:109} INFO - [2021-09-06 23:44:10,300] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:44:10,421] {processor.py:623} INFO - DAG(s) dict_keys(['users_and_posts_etl_dag']) retrieved from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:44:10,444] {logging_mixin.py:109} INFO - [2021-09-06 23:44:10,443] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 23:44:10,462] {logging_mixin.py:109} INFO - [2021-09-06 23:44:10,462] {dag.py:2306} INFO - Setting next_dagrun for users_and_posts_etl_dag to 2021-09-06 00:00:00+00:00
+[2021-09-06 23:44:10,479] {processor.py:170} INFO - Processing /opt/airflow/dags/hoverstate_etl.py took 0.182 seconds
+[2021-09-06 23:44:22,632] {processor.py:162} INFO - Started process (PID=29422) to work on /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:44:22,633] {processor.py:613} INFO - Processing file /opt/airflow/dags/hoverstate_etl.py for tasks to queue
+[2021-09-06 23:44:22,633] {logging_mixin.py:109} INFO - [2021-09-06 23:44:22,633] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:44:22,765] {processor.py:623} INFO - DAG(s) dict_keys(['users_and_posts_etl_dag']) retrieved from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:44:22,783] {logging_mixin.py:109} INFO - [2021-09-06 23:44:22,782] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 23:44:22,793] {logging_mixin.py:109} INFO - [2021-09-06 23:44:22,793] {dag.py:2306} INFO - Setting next_dagrun for users_and_posts_etl_dag to 2021-09-06 00:00:00+00:00
+[2021-09-06 23:44:22,803] {processor.py:170} INFO - Processing /opt/airflow/dags/hoverstate_etl.py took 0.173 seconds
+[2021-09-06 23:44:52,974] {processor.py:162} INFO - Started process (PID=29495) to work on /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:44:52,975] {processor.py:613} INFO - Processing file /opt/airflow/dags/hoverstate_etl.py for tasks to queue
+[2021-09-06 23:44:52,975] {logging_mixin.py:109} INFO - [2021-09-06 23:44:52,975] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:44:53,083] {processor.py:623} INFO - DAG(s) dict_keys(['users_and_posts_etl_dag']) retrieved from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:44:53,101] {logging_mixin.py:109} INFO - [2021-09-06 23:44:53,100] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 23:44:53,110] {logging_mixin.py:109} INFO - [2021-09-06 23:44:53,110] {dag.py:2306} INFO - Setting next_dagrun for users_and_posts_etl_dag to 2021-09-06 00:00:00+00:00
+[2021-09-06 23:44:53,122] {processor.py:170} INFO - Processing /opt/airflow/dags/hoverstate_etl.py took 0.149 seconds
+[2021-09-06 23:45:23,191] {processor.py:162} INFO - Started process (PID=29564) to work on /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:45:23,192] {processor.py:613} INFO - Processing file /opt/airflow/dags/hoverstate_etl.py for tasks to queue
+[2021-09-06 23:45:23,192] {logging_mixin.py:109} INFO - [2021-09-06 23:45:23,192] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:45:23,301] {processor.py:623} INFO - DAG(s) dict_keys(['users_and_posts_etl_dag']) retrieved from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:45:23,318] {logging_mixin.py:109} INFO - [2021-09-06 23:45:23,317] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 23:45:23,327] {logging_mixin.py:109} INFO - [2021-09-06 23:45:23,327] {dag.py:2306} INFO - Setting next_dagrun for users_and_posts_etl_dag to 2021-09-06 00:00:00+00:00
+[2021-09-06 23:45:23,334] {processor.py:170} INFO - Processing /opt/airflow/dags/hoverstate_etl.py took 0.145 seconds
+[2021-09-06 23:45:53,391] {processor.py:162} INFO - Started process (PID=29625) to work on /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:45:53,392] {processor.py:613} INFO - Processing file /opt/airflow/dags/hoverstate_etl.py for tasks to queue
+[2021-09-06 23:45:53,392] {logging_mixin.py:109} INFO - [2021-09-06 23:45:53,392] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:45:53,497] {processor.py:623} INFO - DAG(s) dict_keys(['users_and_posts_etl_dag']) retrieved from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:45:53,513] {logging_mixin.py:109} INFO - [2021-09-06 23:45:53,513] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 23:45:53,523] {logging_mixin.py:109} INFO - [2021-09-06 23:45:53,523] {dag.py:2306} INFO - Setting next_dagrun for users_and_posts_etl_dag to 2021-09-06 00:00:00+00:00
+[2021-09-06 23:45:53,535] {processor.py:170} INFO - Processing /opt/airflow/dags/hoverstate_etl.py took 0.145 seconds
+[2021-09-06 23:46:23,866] {processor.py:162} INFO - Started process (PID=29694) to work on /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:46:23,867] {processor.py:613} INFO - Processing file /opt/airflow/dags/hoverstate_etl.py for tasks to queue
+[2021-09-06 23:46:23,867] {logging_mixin.py:109} INFO - [2021-09-06 23:46:23,867] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:46:23,978] {processor.py:623} INFO - DAG(s) dict_keys(['users_and_posts_etl_dag']) retrieved from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:46:23,995] {logging_mixin.py:109} INFO - [2021-09-06 23:46:23,994] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 23:46:24,005] {logging_mixin.py:109} INFO - [2021-09-06 23:46:24,005] {dag.py:2306} INFO - Setting next_dagrun for users_and_posts_etl_dag to 2021-09-06 00:00:00+00:00
+[2021-09-06 23:46:24,012] {processor.py:170} INFO - Processing /opt/airflow/dags/hoverstate_etl.py took 0.147 seconds
+[2021-09-06 23:46:54,225] {processor.py:162} INFO - Started process (PID=29761) to work on /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:46:54,226] {processor.py:613} INFO - Processing file /opt/airflow/dags/hoverstate_etl.py for tasks to queue
+[2021-09-06 23:46:54,226] {logging_mixin.py:109} INFO - [2021-09-06 23:46:54,226] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:46:54,331] {processor.py:623} INFO - DAG(s) dict_keys(['users_and_posts_etl_dag']) retrieved from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:46:54,347] {logging_mixin.py:109} INFO - [2021-09-06 23:46:54,347] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 23:46:54,357] {logging_mixin.py:109} INFO - [2021-09-06 23:46:54,357] {dag.py:2306} INFO - Setting next_dagrun for users_and_posts_etl_dag to 2021-09-06 00:00:00+00:00
+[2021-09-06 23:46:54,364] {processor.py:170} INFO - Processing /opt/airflow/dags/hoverstate_etl.py took 0.141 seconds
+[2021-09-06 23:47:22,436] {processor.py:162} INFO - Started process (PID=29821) to work on /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:47:22,437] {processor.py:613} INFO - Processing file /opt/airflow/dags/hoverstate_etl.py for tasks to queue
+[2021-09-06 23:47:22,437] {logging_mixin.py:109} INFO - [2021-09-06 23:47:22,437] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:47:22,545] {processor.py:623} INFO - DAG(s) dict_keys(['users_and_posts_etl_dag']) retrieved from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:47:22,563] {logging_mixin.py:109} INFO - [2021-09-06 23:47:22,562] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 23:47:22,574] {logging_mixin.py:109} INFO - [2021-09-06 23:47:22,574] {dag.py:2306} INFO - Setting next_dagrun for users_and_posts_etl_dag to 2021-09-06 00:00:00+00:00
+[2021-09-06 23:47:22,585] {processor.py:170} INFO - Processing /opt/airflow/dags/hoverstate_etl.py took 0.151 seconds
+[2021-09-06 23:47:48,706] {processor.py:162} INFO - Started process (PID=29883) to work on /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:47:48,706] {processor.py:613} INFO - Processing file /opt/airflow/dags/hoverstate_etl.py for tasks to queue
+[2021-09-06 23:47:48,707] {logging_mixin.py:109} INFO - [2021-09-06 23:47:48,707] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:47:48,813] {processor.py:623} INFO - DAG(s) dict_keys(['users_and_posts_etl_dag']) retrieved from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:47:48,830] {logging_mixin.py:109} INFO - [2021-09-06 23:47:48,829] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 23:47:48,839] {logging_mixin.py:109} INFO - [2021-09-06 23:47:48,839] {dag.py:2306} INFO - Setting next_dagrun for users_and_posts_etl_dag to 2021-09-06 00:00:00+00:00
+[2021-09-06 23:47:48,847] {processor.py:170} INFO - Processing /opt/airflow/dags/hoverstate_etl.py took 0.143 seconds
+[2021-09-06 23:48:19,586] {processor.py:162} INFO - Started process (PID=29952) to work on /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:48:19,587] {processor.py:613} INFO - Processing file /opt/airflow/dags/hoverstate_etl.py for tasks to queue
+[2021-09-06 23:48:19,588] {logging_mixin.py:109} INFO - [2021-09-06 23:48:19,588] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:48:19,737] {processor.py:623} INFO - DAG(s) dict_keys(['users_and_posts_etl_dag']) retrieved from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:48:19,755] {logging_mixin.py:109} INFO - [2021-09-06 23:48:19,755] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 23:48:19,766] {logging_mixin.py:109} INFO - [2021-09-06 23:48:19,766] {dag.py:2306} INFO - Setting next_dagrun for users_and_posts_etl_dag to 2021-09-06 00:00:00+00:00
+[2021-09-06 23:48:19,775] {processor.py:170} INFO - Processing /opt/airflow/dags/hoverstate_etl.py took 0.191 seconds
+[2021-09-06 23:48:49,968] {processor.py:162} INFO - Started process (PID=30025) to work on /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:48:49,969] {processor.py:613} INFO - Processing file /opt/airflow/dags/hoverstate_etl.py for tasks to queue
+[2021-09-06 23:48:49,970] {logging_mixin.py:109} INFO - [2021-09-06 23:48:49,970] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:48:50,105] {processor.py:623} INFO - DAG(s) dict_keys(['users_and_posts_etl_dag']) retrieved from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:48:50,124] {logging_mixin.py:109} INFO - [2021-09-06 23:48:50,123] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 23:48:50,134] {logging_mixin.py:109} INFO - [2021-09-06 23:48:50,134] {dag.py:2306} INFO - Setting next_dagrun for users_and_posts_etl_dag to 2021-09-06 00:00:00+00:00
+[2021-09-06 23:48:50,145] {processor.py:170} INFO - Processing /opt/airflow/dags/hoverstate_etl.py took 0.179 seconds
+[2021-09-06 23:49:21,104] {processor.py:162} INFO - Started process (PID=30094) to work on /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:49:21,105] {processor.py:613} INFO - Processing file /opt/airflow/dags/hoverstate_etl.py for tasks to queue
+[2021-09-06 23:49:21,105] {logging_mixin.py:109} INFO - [2021-09-06 23:49:21,105] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:49:21,216] {processor.py:623} INFO - DAG(s) dict_keys(['users_and_posts_etl_dag']) retrieved from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:49:21,233] {logging_mixin.py:109} INFO - [2021-09-06 23:49:21,232] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 23:49:21,243] {logging_mixin.py:109} INFO - [2021-09-06 23:49:21,243] {dag.py:2306} INFO - Setting next_dagrun for users_and_posts_etl_dag to 2021-09-06 00:00:00+00:00
+[2021-09-06 23:49:21,250] {processor.py:170} INFO - Processing /opt/airflow/dags/hoverstate_etl.py took 0.150 seconds
+[2021-09-06 23:49:51,385] {processor.py:162} INFO - Started process (PID=30154) to work on /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:49:51,386] {processor.py:613} INFO - Processing file /opt/airflow/dags/hoverstate_etl.py for tasks to queue
+[2021-09-06 23:49:51,386] {logging_mixin.py:109} INFO - [2021-09-06 23:49:51,386] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:49:51,545] {processor.py:623} INFO - DAG(s) dict_keys(['users_and_posts_etl_dag']) retrieved from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:49:51,562] {logging_mixin.py:109} INFO - [2021-09-06 23:49:51,562] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 23:49:51,574] {logging_mixin.py:109} INFO - [2021-09-06 23:49:51,574] {dag.py:2306} INFO - Setting next_dagrun for users_and_posts_etl_dag to 2021-09-06 00:00:00+00:00
+[2021-09-06 23:49:51,583] {processor.py:170} INFO - Processing /opt/airflow/dags/hoverstate_etl.py took 0.200 seconds
+[2021-09-06 23:50:21,617] {processor.py:162} INFO - Started process (PID=30220) to work on /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:50:21,618] {processor.py:613} INFO - Processing file /opt/airflow/dags/hoverstate_etl.py for tasks to queue
+[2021-09-06 23:50:21,618] {logging_mixin.py:109} INFO - [2021-09-06 23:50:21,618] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:50:21,745] {processor.py:623} INFO - DAG(s) dict_keys(['users_and_posts_etl_dag']) retrieved from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:50:21,762] {logging_mixin.py:109} INFO - [2021-09-06 23:50:21,761] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 23:50:21,771] {logging_mixin.py:109} INFO - [2021-09-06 23:50:21,771] {dag.py:2306} INFO - Setting next_dagrun for users_and_posts_etl_dag to 2021-09-06 00:00:00+00:00
+[2021-09-06 23:50:21,778] {processor.py:170} INFO - Processing /opt/airflow/dags/hoverstate_etl.py took 0.163 seconds
+[2021-09-06 23:50:51,852] {processor.py:162} INFO - Started process (PID=30280) to work on /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:50:51,853] {processor.py:613} INFO - Processing file /opt/airflow/dags/hoverstate_etl.py for tasks to queue
+[2021-09-06 23:50:51,853] {logging_mixin.py:109} INFO - [2021-09-06 23:50:51,853] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:50:51,982] {processor.py:623} INFO - DAG(s) dict_keys(['users_and_posts_etl_dag']) retrieved from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:50:52,000] {logging_mixin.py:109} INFO - [2021-09-06 23:50:51,999] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 23:50:52,009] {logging_mixin.py:109} INFO - [2021-09-06 23:50:52,009] {dag.py:2306} INFO - Setting next_dagrun for users_and_posts_etl_dag to 2021-09-06 00:00:00+00:00
+[2021-09-06 23:50:52,017] {processor.py:170} INFO - Processing /opt/airflow/dags/hoverstate_etl.py took 0.167 seconds
+[2021-09-06 23:51:22,083] {processor.py:162} INFO - Started process (PID=30347) to work on /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:51:22,085] {processor.py:613} INFO - Processing file /opt/airflow/dags/hoverstate_etl.py for tasks to queue
+[2021-09-06 23:51:22,085] {logging_mixin.py:109} INFO - [2021-09-06 23:51:22,085] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:51:22,216] {processor.py:623} INFO - DAG(s) dict_keys(['users_and_posts_etl_dag']) retrieved from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:51:22,232] {logging_mixin.py:109} INFO - [2021-09-06 23:51:22,232] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 23:51:22,242] {logging_mixin.py:109} INFO - [2021-09-06 23:51:22,242] {dag.py:2306} INFO - Setting next_dagrun for users_and_posts_etl_dag to 2021-09-06 00:00:00+00:00
+[2021-09-06 23:51:22,249] {processor.py:170} INFO - Processing /opt/airflow/dags/hoverstate_etl.py took 0.167 seconds
+[2021-09-06 23:51:52,319] {processor.py:162} INFO - Started process (PID=30416) to work on /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:51:52,320] {processor.py:613} INFO - Processing file /opt/airflow/dags/hoverstate_etl.py for tasks to queue
+[2021-09-06 23:51:52,321] {logging_mixin.py:109} INFO - [2021-09-06 23:51:52,321] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:51:52,512] {processor.py:623} INFO - DAG(s) dict_keys(['users_and_posts_etl_dag']) retrieved from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:51:52,536] {logging_mixin.py:109} INFO - [2021-09-06 23:51:52,535] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 23:51:52,550] {logging_mixin.py:109} INFO - [2021-09-06 23:51:52,550] {dag.py:2306} INFO - Setting next_dagrun for users_and_posts_etl_dag to 2021-09-06 00:00:00+00:00
+[2021-09-06 23:51:52,564] {processor.py:170} INFO - Processing /opt/airflow/dags/hoverstate_etl.py took 0.248 seconds
+[2021-09-06 23:52:22,644] {processor.py:162} INFO - Started process (PID=30476) to work on /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:52:22,645] {processor.py:613} INFO - Processing file /opt/airflow/dags/hoverstate_etl.py for tasks to queue
+[2021-09-06 23:52:22,646] {logging_mixin.py:109} INFO - [2021-09-06 23:52:22,646] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:52:22,766] {processor.py:623} INFO - DAG(s) dict_keys(['users_and_posts_etl_dag']) retrieved from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:52:22,785] {logging_mixin.py:109} INFO - [2021-09-06 23:52:22,784] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 23:52:22,795] {logging_mixin.py:109} INFO - [2021-09-06 23:52:22,795] {dag.py:2306} INFO - Setting next_dagrun for users_and_posts_etl_dag to 2021-09-06 00:00:00+00:00
+[2021-09-06 23:52:22,804] {processor.py:170} INFO - Processing /opt/airflow/dags/hoverstate_etl.py took 0.162 seconds
+[2021-09-06 23:52:53,068] {processor.py:162} INFO - Started process (PID=30544) to work on /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:52:53,069] {processor.py:613} INFO - Processing file /opt/airflow/dags/hoverstate_etl.py for tasks to queue
+[2021-09-06 23:52:53,069] {logging_mixin.py:109} INFO - [2021-09-06 23:52:53,069] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:52:53,205] {processor.py:623} INFO - DAG(s) dict_keys(['users_and_posts_etl_dag']) retrieved from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:52:53,224] {logging_mixin.py:109} INFO - [2021-09-06 23:52:53,223] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 23:52:53,239] {logging_mixin.py:109} INFO - [2021-09-06 23:52:53,239] {dag.py:2306} INFO - Setting next_dagrun for users_and_posts_etl_dag to 2021-09-06 00:00:00+00:00
+[2021-09-06 23:52:53,252] {processor.py:170} INFO - Processing /opt/airflow/dags/hoverstate_etl.py took 0.186 seconds
+[2021-09-06 23:53:24,193] {processor.py:162} INFO - Started process (PID=30613) to work on /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:53:24,194] {processor.py:613} INFO - Processing file /opt/airflow/dags/hoverstate_etl.py for tasks to queue
+[2021-09-06 23:53:24,195] {logging_mixin.py:109} INFO - [2021-09-06 23:53:24,195] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:53:24,339] {processor.py:623} INFO - DAG(s) dict_keys(['users_and_posts_etl_dag']) retrieved from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:53:24,356] {logging_mixin.py:109} INFO - [2021-09-06 23:53:24,355] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 23:53:24,367] {logging_mixin.py:109} INFO - [2021-09-06 23:53:24,367] {dag.py:2306} INFO - Setting next_dagrun for users_and_posts_etl_dag to 2021-09-06 00:00:00+00:00
+[2021-09-06 23:53:24,374] {processor.py:170} INFO - Processing /opt/airflow/dags/hoverstate_etl.py took 0.183 seconds
+[2021-09-06 23:53:54,477] {processor.py:162} INFO - Started process (PID=30672) to work on /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:53:54,478] {processor.py:613} INFO - Processing file /opt/airflow/dags/hoverstate_etl.py for tasks to queue
+[2021-09-06 23:53:54,479] {logging_mixin.py:109} INFO - [2021-09-06 23:53:54,479] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:53:54,594] {processor.py:623} INFO - DAG(s) dict_keys(['users_and_posts_etl_dag']) retrieved from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:53:54,611] {logging_mixin.py:109} INFO - [2021-09-06 23:53:54,611] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 23:53:54,622] {logging_mixin.py:109} INFO - [2021-09-06 23:53:54,621] {dag.py:2306} INFO - Setting next_dagrun for users_and_posts_etl_dag to 2021-09-06 00:00:00+00:00
+[2021-09-06 23:53:54,631] {processor.py:170} INFO - Processing /opt/airflow/dags/hoverstate_etl.py took 0.155 seconds
+[2021-09-06 23:54:24,722] {processor.py:162} INFO - Started process (PID=30741) to work on /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:54:24,723] {processor.py:613} INFO - Processing file /opt/airflow/dags/hoverstate_etl.py for tasks to queue
+[2021-09-06 23:54:24,723] {logging_mixin.py:109} INFO - [2021-09-06 23:54:24,723] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:54:24,875] {processor.py:623} INFO - DAG(s) dict_keys(['users_and_posts_etl_dag']) retrieved from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:54:24,892] {logging_mixin.py:109} INFO - [2021-09-06 23:54:24,892] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 23:54:24,902] {logging_mixin.py:109} INFO - [2021-09-06 23:54:24,902] {dag.py:2306} INFO - Setting next_dagrun for users_and_posts_etl_dag to 2021-09-06 00:00:00+00:00
+[2021-09-06 23:54:24,914] {processor.py:170} INFO - Processing /opt/airflow/dags/hoverstate_etl.py took 0.194 seconds
+[2021-09-06 23:54:55,080] {processor.py:162} INFO - Started process (PID=30809) to work on /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:54:55,081] {processor.py:613} INFO - Processing file /opt/airflow/dags/hoverstate_etl.py for tasks to queue
+[2021-09-06 23:54:55,082] {logging_mixin.py:109} INFO - [2021-09-06 23:54:55,082] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:54:55,218] {processor.py:623} INFO - DAG(s) dict_keys(['users_and_posts_etl_dag']) retrieved from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:54:55,235] {logging_mixin.py:109} INFO - [2021-09-06 23:54:55,234] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 23:54:55,245] {logging_mixin.py:109} INFO - [2021-09-06 23:54:55,245] {dag.py:2306} INFO - Setting next_dagrun for users_and_posts_etl_dag to 2021-09-06 00:00:00+00:00
+[2021-09-06 23:54:55,253] {processor.py:170} INFO - Processing /opt/airflow/dags/hoverstate_etl.py took 0.175 seconds
+[2021-09-06 23:55:25,320] {processor.py:162} INFO - Started process (PID=30869) to work on /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:55:25,321] {processor.py:613} INFO - Processing file /opt/airflow/dags/hoverstate_etl.py for tasks to queue
+[2021-09-06 23:55:25,322] {logging_mixin.py:109} INFO - [2021-09-06 23:55:25,322] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:55:25,449] {processor.py:623} INFO - DAG(s) dict_keys(['users_and_posts_etl_dag']) retrieved from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:55:25,466] {logging_mixin.py:109} INFO - [2021-09-06 23:55:25,465] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 23:55:25,476] {logging_mixin.py:109} INFO - [2021-09-06 23:55:25,476] {dag.py:2306} INFO - Setting next_dagrun for users_and_posts_etl_dag to 2021-09-06 00:00:00+00:00
+[2021-09-06 23:55:25,484] {processor.py:170} INFO - Processing /opt/airflow/dags/hoverstate_etl.py took 0.167 seconds
+[2021-09-06 23:55:55,660] {processor.py:162} INFO - Started process (PID=30936) to work on /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:55:55,662] {processor.py:613} INFO - Processing file /opt/airflow/dags/hoverstate_etl.py for tasks to queue
+[2021-09-06 23:55:55,662] {logging_mixin.py:109} INFO - [2021-09-06 23:55:55,662] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:55:55,821] {processor.py:623} INFO - DAG(s) dict_keys(['users_and_posts_etl_dag']) retrieved from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:55:55,839] {logging_mixin.py:109} INFO - [2021-09-06 23:55:55,838] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 23:55:55,851] {logging_mixin.py:109} INFO - [2021-09-06 23:55:55,851] {dag.py:2306} INFO - Setting next_dagrun for users_and_posts_etl_dag to 2021-09-06 00:00:00+00:00
+[2021-09-06 23:55:55,860] {processor.py:170} INFO - Processing /opt/airflow/dags/hoverstate_etl.py took 0.202 seconds
+[2021-09-06 23:56:25,890] {processor.py:162} INFO - Started process (PID=31005) to work on /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:56:25,891] {processor.py:613} INFO - Processing file /opt/airflow/dags/hoverstate_etl.py for tasks to queue
+[2021-09-06 23:56:25,892] {logging_mixin.py:109} INFO - [2021-09-06 23:56:25,891] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:56:26,033] {processor.py:623} INFO - DAG(s) dict_keys(['users_and_posts_etl_dag']) retrieved from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:56:26,050] {logging_mixin.py:109} INFO - [2021-09-06 23:56:26,049] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 23:56:26,061] {logging_mixin.py:109} INFO - [2021-09-06 23:56:26,061] {dag.py:2306} INFO - Setting next_dagrun for users_and_posts_etl_dag to 2021-09-06 00:00:00+00:00
+[2021-09-06 23:56:26,070] {processor.py:170} INFO - Processing /opt/airflow/dags/hoverstate_etl.py took 0.182 seconds
+[2021-09-06 23:56:56,159] {processor.py:162} INFO - Started process (PID=31063) to work on /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:56:56,159] {processor.py:613} INFO - Processing file /opt/airflow/dags/hoverstate_etl.py for tasks to queue
+[2021-09-06 23:56:56,160] {logging_mixin.py:109} INFO - [2021-09-06 23:56:56,160] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:56:56,320] {processor.py:623} INFO - DAG(s) dict_keys(['users_and_posts_etl_dag']) retrieved from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:56:56,344] {logging_mixin.py:109} INFO - [2021-09-06 23:56:56,343] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 23:56:56,359] {logging_mixin.py:109} INFO - [2021-09-06 23:56:56,359] {dag.py:2306} INFO - Setting next_dagrun for users_and_posts_etl_dag to 2021-09-06 00:00:00+00:00
+[2021-09-06 23:56:56,370] {processor.py:170} INFO - Processing /opt/airflow/dags/hoverstate_etl.py took 0.214 seconds
+[2021-09-06 23:57:26,464] {processor.py:162} INFO - Started process (PID=31130) to work on /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:57:26,464] {processor.py:613} INFO - Processing file /opt/airflow/dags/hoverstate_etl.py for tasks to queue
+[2021-09-06 23:57:26,465] {logging_mixin.py:109} INFO - [2021-09-06 23:57:26,465] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:57:26,599] {processor.py:623} INFO - DAG(s) dict_keys(['users_and_posts_etl_dag']) retrieved from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:57:26,615] {logging_mixin.py:109} INFO - [2021-09-06 23:57:26,615] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 23:57:26,625] {logging_mixin.py:109} INFO - [2021-09-06 23:57:26,625] {dag.py:2306} INFO - Setting next_dagrun for users_and_posts_etl_dag to 2021-09-06 00:00:00+00:00
+[2021-09-06 23:57:26,631] {processor.py:170} INFO - Processing /opt/airflow/dags/hoverstate_etl.py took 0.169 seconds
+[2021-09-06 23:57:56,717] {processor.py:162} INFO - Started process (PID=31190) to work on /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:57:56,718] {processor.py:613} INFO - Processing file /opt/airflow/dags/hoverstate_etl.py for tasks to queue
+[2021-09-06 23:57:56,718] {logging_mixin.py:109} INFO - [2021-09-06 23:57:56,718] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:57:56,836] {processor.py:623} INFO - DAG(s) dict_keys(['users_and_posts_etl_dag']) retrieved from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:57:56,863] {logging_mixin.py:109} INFO - [2021-09-06 23:57:56,862] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 23:57:56,881] {logging_mixin.py:109} INFO - [2021-09-06 23:57:56,880] {dag.py:2306} INFO - Setting next_dagrun for users_and_posts_etl_dag to 2021-09-06 00:00:00+00:00
+[2021-09-06 23:57:56,891] {processor.py:170} INFO - Processing /opt/airflow/dags/hoverstate_etl.py took 0.176 seconds
+[2021-09-06 23:58:27,808] {processor.py:162} INFO - Started process (PID=31258) to work on /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:58:27,809] {processor.py:613} INFO - Processing file /opt/airflow/dags/hoverstate_etl.py for tasks to queue
+[2021-09-06 23:58:27,809] {logging_mixin.py:109} INFO - [2021-09-06 23:58:27,809] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:58:27,956] {processor.py:623} INFO - DAG(s) dict_keys(['users_and_posts_etl_dag']) retrieved from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:58:27,972] {logging_mixin.py:109} INFO - [2021-09-06 23:58:27,972] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 23:58:27,982] {logging_mixin.py:109} INFO - [2021-09-06 23:58:27,982] {dag.py:2306} INFO - Setting next_dagrun for users_and_posts_etl_dag to 2021-09-06 00:00:00+00:00
+[2021-09-06 23:58:28,015] {processor.py:170} INFO - Processing /opt/airflow/dags/hoverstate_etl.py took 0.208 seconds
+[2021-09-06 23:58:58,053] {processor.py:162} INFO - Started process (PID=31326) to work on /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:58:58,054] {processor.py:613} INFO - Processing file /opt/airflow/dags/hoverstate_etl.py for tasks to queue
+[2021-09-06 23:58:58,054] {logging_mixin.py:109} INFO - [2021-09-06 23:58:58,054] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:58:58,158] {processor.py:623} INFO - DAG(s) dict_keys(['users_and_posts_etl_dag']) retrieved from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:58:58,175] {logging_mixin.py:109} INFO - [2021-09-06 23:58:58,175] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 23:58:58,185] {logging_mixin.py:109} INFO - [2021-09-06 23:58:58,185] {dag.py:2306} INFO - Setting next_dagrun for users_and_posts_etl_dag to 2021-09-06 00:00:00+00:00
+[2021-09-06 23:58:58,192] {processor.py:170} INFO - Processing /opt/airflow/dags/hoverstate_etl.py took 0.140 seconds
+[2021-09-06 23:59:28,411] {processor.py:162} INFO - Started process (PID=31386) to work on /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:59:28,412] {processor.py:613} INFO - Processing file /opt/airflow/dags/hoverstate_etl.py for tasks to queue
+[2021-09-06 23:59:28,412] {logging_mixin.py:109} INFO - [2021-09-06 23:59:28,412] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:59:28,560] {processor.py:623} INFO - DAG(s) dict_keys(['users_and_posts_etl_dag']) retrieved from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:59:28,582] {logging_mixin.py:109} INFO - [2021-09-06 23:59:28,581] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 23:59:28,593] {logging_mixin.py:109} INFO - [2021-09-06 23:59:28,593] {dag.py:2306} INFO - Setting next_dagrun for users_and_posts_etl_dag to 2021-09-06 00:00:00+00:00
+[2021-09-06 23:59:28,604] {processor.py:170} INFO - Processing /opt/airflow/dags/hoverstate_etl.py took 0.194 seconds
+[2021-09-06 23:59:58,712] {processor.py:162} INFO - Started process (PID=31453) to work on /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:59:58,713] {processor.py:613} INFO - Processing file /opt/airflow/dags/hoverstate_etl.py for tasks to queue
+[2021-09-06 23:59:58,713] {logging_mixin.py:109} INFO - [2021-09-06 23:59:58,713] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:59:58,857] {processor.py:623} INFO - DAG(s) dict_keys(['users_and_posts_etl_dag']) retrieved from /opt/airflow/dags/hoverstate_etl.py
+[2021-09-06 23:59:58,878] {logging_mixin.py:109} INFO - [2021-09-06 23:59:58,877] {dag.py:1833} INFO - Sync 1 DAGs
+[2021-09-06 23:59:58,890] {logging_mixin.py:109} INFO - [2021-09-06 23:59:58,890] {dag.py:2306} INFO - Setting next_dagrun for users_and_posts_etl_dag to 2021-09-06 00:00:00+00:00
+[2021-09-06 23:59:58,904] {processor.py:170} INFO - Processing /opt/airflow/dags/hoverstate_etl.py took 0.195 seconds

@@ -1,0 +1,47 @@
+[2021-09-07 05:49:33,301] {taskinstance.py:903} INFO - Dependencies all met for <TaskInstance: json_etl_dag.create_tables 2021-09-07T05:49:30.877224+00:00 [queued]>
+[2021-09-07 05:49:33,309] {taskinstance.py:903} INFO - Dependencies all met for <TaskInstance: json_etl_dag.create_tables 2021-09-07T05:49:30.877224+00:00 [queued]>
+[2021-09-07 05:49:33,309] {taskinstance.py:1094} INFO - 
+--------------------------------------------------------------------------------
+[2021-09-07 05:49:33,309] {taskinstance.py:1095} INFO - Starting attempt 1 of 1
+[2021-09-07 05:49:33,309] {taskinstance.py:1096} INFO - 
+--------------------------------------------------------------------------------
+[2021-09-07 05:49:33,319] {taskinstance.py:1114} INFO - Executing <Task(PostgresOperator): create_tables> on 2021-09-07T05:49:30.877224+00:00
+[2021-09-07 05:49:33,322] {standard_task_runner.py:52} INFO - Started process 29145 to run task
+[2021-09-07 05:49:33,325] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'json_etl_dag', 'create_tables', '2021-09-07T05:49:30.877224+00:00', '--job-id', '223', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/etl.py', '--cfg-path', '/tmp/tmpktyhq06w', '--error-file', '/tmp/tmpmalbkgca']
+[2021-09-07 05:49:33,325] {standard_task_runner.py:77} INFO - Job 223: Subtask create_tables
+[2021-09-07 05:49:33,364] {logging_mixin.py:109} INFO - Running <TaskInstance: json_etl_dag.create_tables 2021-09-07T05:49:30.877224+00:00 [running]> on host 731700afc5ff
+[2021-09-07 05:49:33,406] {taskinstance.py:1251} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=json_etl_dag
+AIRFLOW_CTX_TASK_ID=create_tables
+AIRFLOW_CTX_EXECUTION_DATE=2021-09-07T05:49:30.877224+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-09-07T05:49:30.877224+00:00
+[2021-09-07 05:49:33,406] {postgres.py:68} INFO - Executing: 
+            DROP TABLE IF EXISTS users_temp;
+            DROP TABLE IF EXISTS posts_temp;
+            CREATE TABLE IF NOT EXISTS posts (id int, userId int, title text, body text);
+            CREATE TABLE IF NOT EXISTS users (id int, name text, username text, email text, address_street text, address_suite text, address_city text, address_zipcode text, address_geo_lat numeric, address_geo_lng numeric, phone text, website text, company_name text, company_catchPhrase text, company_bs text);
+            CREATE TABLE IF NOT EXISTS users_temp AS SELECT * FROM users WHERE 1=0;
+            CREATE TABLE IF NOT EXISTS posts_temp AS SELECT * FROM posts WHERE 1=0;
+        
+[2021-09-07 05:49:33,412] {base.py:70} INFO - Using connection to: id: nickel-aws. Host: nickel.caybmxchvlv1.us-east-1.rds.amazonaws.com, Port: 5432, Schema: , Login: postgres, Password: ***, extra: {}
+[2021-09-07 05:49:33,937] {dbapi.py:204} INFO - Running statement: 
+            DROP TABLE IF EXISTS users_temp;
+            DROP TABLE IF EXISTS posts_temp;
+            CREATE TABLE IF NOT EXISTS posts (id int, userId int, title text, body text);
+            CREATE TABLE IF NOT EXISTS users (id int, name text, username text, email text, address_street text, address_suite text, address_city text, address_zipcode text, address_geo_lat numeric, address_geo_lng numeric, phone text, website text, company_name text, company_catchPhrase text, company_bs text);
+            CREATE TABLE IF NOT EXISTS users_temp AS SELECT * FROM users WHERE 1=0;
+            CREATE TABLE IF NOT EXISTS posts_temp AS SELECT * FROM posts WHERE 1=0;
+        , parameters: None
+[2021-09-07 05:49:34,101] {dbapi.py:212} INFO - Rows affected: 0
+[2021-09-07 05:49:34,180] {postgres.py:72} INFO - NOTICE:  table "users_temp" does not exist, skipping
+
+[2021-09-07 05:49:34,180] {postgres.py:72} INFO - NOTICE:  table "posts_temp" does not exist, skipping
+
+[2021-09-07 05:49:34,181] {postgres.py:72} INFO - NOTICE:  relation "posts" already exists, skipping
+
+[2021-09-07 05:49:34,181] {postgres.py:72} INFO - NOTICE:  relation "users" already exists, skipping
+
+[2021-09-07 05:49:34,194] {taskinstance.py:1211} INFO - Marking task as SUCCESS. dag_id=json_etl_dag, task_id=create_tables, execution_date=20210907T054930, start_date=20210907T054933, end_date=20210907T054934
+[2021-09-07 05:49:34,219] {local_task_job.py:151} INFO - Task exited with return code 0
+[2021-09-07 05:49:34,242] {local_task_job.py:261} INFO - 0 downstream tasks scheduled from follow-on schedule check

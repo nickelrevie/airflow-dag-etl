@@ -1,0 +1,37 @@
+[2021-09-07 00:10:55,155] {taskinstance.py:903} INFO - Dependencies all met for <TaskInstance: users_and_posts_etl_dag.load_data 2021-09-07T00:10:53.705762+00:00 [queued]>
+[2021-09-07 00:10:55,164] {taskinstance.py:903} INFO - Dependencies all met for <TaskInstance: users_and_posts_etl_dag.load_data 2021-09-07T00:10:53.705762+00:00 [queued]>
+[2021-09-07 00:10:55,165] {taskinstance.py:1094} INFO - 
+--------------------------------------------------------------------------------
+[2021-09-07 00:10:55,165] {taskinstance.py:1095} INFO - Starting attempt 1 of 1
+[2021-09-07 00:10:55,165] {taskinstance.py:1096} INFO - 
+--------------------------------------------------------------------------------
+[2021-09-07 00:10:55,176] {taskinstance.py:1114} INFO - Executing <Task(PythonOperator): load_data> on 2021-09-07T00:10:53.705762+00:00
+[2021-09-07 00:10:55,179] {standard_task_runner.py:52} INFO - Started process 28472 to run task
+[2021-09-07 00:10:55,181] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'users_and_posts_etl_dag', 'load_data', '2021-09-07T00:10:53.705762+00:00', '--job-id', '49', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/hoverstate_etl.py', '--cfg-path', '/tmp/tmpzsg_1c3y', '--error-file', '/tmp/tmpfvdc5oqk']
+[2021-09-07 00:10:55,182] {standard_task_runner.py:77} INFO - Job 49: Subtask load_data
+[2021-09-07 00:10:55,211] {logging_mixin.py:109} INFO - Running <TaskInstance: users_and_posts_etl_dag.load_data 2021-09-07T00:10:53.705762+00:00 [running]> on host 731700afc5ff
+[2021-09-07 00:10:55,250] {taskinstance.py:1251} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=users_and_posts_etl_dag
+AIRFLOW_CTX_TASK_ID=load_data
+AIRFLOW_CTX_EXECUTION_DATE=2021-09-07T00:10:53.705762+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-09-07T00:10:53.705762+00:00
+[2021-09-07 00:10:55,251] {logging_mixin.py:109} INFO - <TaskInstance: users_and_posts_etl_dag.load_data 2021-09-07T00:10:53.705762+00:00 [running]>
+[2021-09-07 00:10:55,263] {taskinstance.py:1462} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 1164, in _run_raw_task
+    self._prepare_and_execute_task_with_callbacks(context, task)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 1282, in _prepare_and_execute_task_with_callbacks
+    result = self._execute_task(context, task_copy)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 1312, in _execute_task
+    result = task_copy.execute(context=context)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 150, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 161, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/hoverstate_etl.py", line 71, in load_data
+    if np.isnan(address_geo_lat) is True or np.isnan(address_geo_lng) is True:
+TypeError: ufunc 'isnan' not supported for the input types, and the inputs could not be safely coerced to any supported types according to the casting rule ''safe''
+[2021-09-07 00:10:55,265] {taskinstance.py:1505} INFO - Marking task as FAILED. dag_id=users_and_posts_etl_dag, task_id=load_data, execution_date=20210907T001053, start_date=20210907T001055, end_date=20210907T001055
+[2021-09-07 00:10:55,313] {local_task_job.py:151} INFO - Task exited with return code 1
+[2021-09-07 00:10:55,333] {local_task_job.py:261} INFO - 0 downstream tasks scheduled from follow-on schedule check

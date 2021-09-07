@@ -1,0 +1,46 @@
+[2021-09-07 03:40:42,436] {taskinstance.py:903} INFO - Dependencies all met for <TaskInstance: users_and_posts_etl_dag.load_data 2021-09-07T03:40:40.441660+00:00 [queued]>
+[2021-09-07 03:40:42,445] {taskinstance.py:903} INFO - Dependencies all met for <TaskInstance: users_and_posts_etl_dag.load_data 2021-09-07T03:40:40.441660+00:00 [queued]>
+[2021-09-07 03:40:42,445] {taskinstance.py:1094} INFO - 
+--------------------------------------------------------------------------------
+[2021-09-07 03:40:42,445] {taskinstance.py:1095} INFO - Starting attempt 1 of 1
+[2021-09-07 03:40:42,446] {taskinstance.py:1096} INFO - 
+--------------------------------------------------------------------------------
+[2021-09-07 03:40:42,457] {taskinstance.py:1114} INFO - Executing <Task(PythonOperator): load_data> on 2021-09-07T03:40:40.441660+00:00
+[2021-09-07 03:40:42,460] {standard_task_runner.py:52} INFO - Started process 16561 to run task
+[2021-09-07 03:40:42,462] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'users_and_posts_etl_dag', 'load_data', '2021-09-07T03:40:40.441660+00:00', '--job-id', '162', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/hoverstate_etl.py', '--cfg-path', '/tmp/tmpt5ej7hu2', '--error-file', '/tmp/tmprjqkto9s']
+[2021-09-07 03:40:42,463] {standard_task_runner.py:77} INFO - Job 162: Subtask load_data
+[2021-09-07 03:40:42,515] {logging_mixin.py:109} INFO - Running <TaskInstance: users_and_posts_etl_dag.load_data 2021-09-07T03:40:40.441660+00:00 [running]> on host 731700afc5ff
+[2021-09-07 03:40:42,552] {taskinstance.py:1251} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=users_and_posts_etl_dag
+AIRFLOW_CTX_TASK_ID=load_data
+AIRFLOW_CTX_EXECUTION_DATE=2021-09-07T03:40:40.441660+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-09-07T03:40:40.441660+00:00
+[2021-09-07 03:40:42,571] {base.py:70} INFO - Using connection to: id: etl. Host: host.docker.internal, Port: 5432, Schema: postgres, Login: postgres, Password: ***, extra: {}
+[2021-09-07 03:40:43,662] {taskinstance.py:1462} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 1164, in _run_raw_task
+    self._prepare_and_execute_task_with_callbacks(context, task)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 1282, in _prepare_and_execute_task_with_callbacks
+    result = self._execute_task(context, task_copy)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 1312, in _execute_task
+    result = task_copy.execute(context=context)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 150, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 161, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/hoverstate_etl.py", line 102, in load_data
+    execute_load(pg_hook, "users", users_path)
+  File "/opt/airflow/dags/hoverstate_etl.py", line 162, in execute_load
+    pg_hook.copy_expert(query, file_path)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/postgres/hooks/postgres.py", line 134, in copy_expert
+    with closing(self.get_conn()) as conn:
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/postgres/hooks/postgres.py", line 115, in get_conn
+    self.conn = psycopg2.connect(**conn_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: GSSAPI continuation error: Unspecified GSS failure.  Minor code may provide more information: No Kerberos credentials available (default cache: FILE:/tmp/krb5cc_1000)
+
+[2021-09-07 03:40:43,666] {taskinstance.py:1505} INFO - Marking task as FAILED. dag_id=users_and_posts_etl_dag, task_id=load_data, execution_date=20210907T034040, start_date=20210907T034042, end_date=20210907T034043
+[2021-09-07 03:40:43,717] {local_task_job.py:151} INFO - Task exited with return code 1
+[2021-09-07 03:40:43,739] {local_task_job.py:261} INFO - 0 downstream tasks scheduled from follow-on schedule check
